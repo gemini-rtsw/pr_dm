@@ -1,0 +1,1158 @@
+file {
+	name="PR_Master.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="5"
+	nstr="67"
+	ndynamic="2"
+	nplot="0"
+	nrd="6"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="515"
+		height="293"
+	}
+	clr="0"
+	bclr="13"
+	nwords_dspy="1972"
+	nwords_sta="156"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="868"
+	osta="712"
+	odynamic="868"
+	oplot="1000"
+	ord="1000"
+	oes="1960"
+	okd="1960"
+	opd="1972"
+	opo="1972"
+	opc="68"
+	ostr="124"
+	ocmap="712"
+	ocrules="712"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+	pixwid="2541"
+	pixht="1358"
+	mmwid="672"
+	mmht="359"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="7"
+		width="78"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="93"
+		y="15"
+		width="297"
+		height="22"
+		groupid="0"
+	}
+	textix="Plant Room Monitoring"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="8"
+		y="7"
+		width="497"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="192"
+		width="493"
+		height="88"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="191"
+		width="492"
+		height="32"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="19"
+		y="10"
+		width="105"
+		height="33"
+		groupid="0"
+	}
+	textix="PR"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="67"
+		y="231"
+		width="71"
+		height="17"
+		groupid="0"
+	}
+	textix="PR SIOC"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="10"
+		y="196"
+		width="490"
+		height="21"
+		groupid="0"
+	}
+	textix="System Status"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="41"
+		y="243"
+		width="105"
+		height="17"
+		groupid="0"
+	}
+	textix="HEARTBEAT"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="298"
+		y="230"
+		width="94"
+		height="15"
+		groupid="0"
+	}
+	textix="Plant Room"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="317"
+		y="245"
+		width="75"
+		height="15"
+		groupid="0"
+	}
+	textix="PLC Link"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x="161"
+		y="233"
+		width="91"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)present"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="406"
+		y="233"
+		width="69"
+		height="28"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)plcHeartbeat"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)present.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="34"
+		y="67"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Air Handling Units"
+		name="pr_ahus.dl"
+		args="top=$(top), dev=ahu:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Air Handling Units"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="34"
+		y="104"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Exhaust Fans"
+		name="pr_efans.dl"
+		args="top=$(top), dev=ef:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Exhaust Fans"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="269"
+		y="104"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Electric Power"
+		name="pr_elec.dl"
+		args="top=$(top), dev=elec:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Electric Power"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="269"
+		y="67"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Chillers"
+		name="pr_chillers.dl"
+		args="top=$(top), dev=ch:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Chillers"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="34"
+		y="143"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Generator Power"
+		name="power_transfer.dl"
+		args="top=$(top), dev=trans:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Generator Power"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="391"
+		y="11"
+		width="109"
+		height="32"
+		groupid="0"
+	}
+	label="EXIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}
