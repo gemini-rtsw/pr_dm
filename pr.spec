@@ -1,6 +1,6 @@
 %define _prefix __auto__
 %define gemopt opt
-%define name ecs
+%define name pr
 %define version __auto__
 %define release __auto__
 %define repository gemini
@@ -24,7 +24,7 @@ Requires: epics_extension-opiGEM epics_extension-alh
 # AutoReqProv: no
 
 %description
-Package %{name} provides the DM screens for the module ecs.
+Package %{name} provides the DM screens for the module pr.
 
 %package ws
 Summary: %{name}-ws Package
@@ -32,7 +32,7 @@ Group: Gemini
 BuildRequires: epics_extension-opiGEM
 Requires: epics_extension-opiGEM epics_extension-alh
 %description ws
-Package %{name}-ws provides the DM screens for the module ecs.
+Package %{name}-ws provides the DM screens for the module pr.
 
 ## If you want to have a devel-package to be generated uncomment the following:
 # %package devel
@@ -55,17 +55,17 @@ make
 ## Write install instructions here, e.g
 ## install -D zzz/zzz  $RPM_BUILD_ROOT/%{_prefix}/zzz/zzz
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_CP
-mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_MK
-mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/alh/ecs
+mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
+mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
+mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/alh/pr
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/bin/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
 cp -r bin/linux-x86/* $RPM_BUILD_ROOT/%{_prefix}/bin/
-cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_CP
-cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_MK
-#cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
-cp -r data/*.config $RPM_BUILD_ROOT/%{_prefix}/share/alh/ecs
+cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
+cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
+#cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr
+#cp -r data/*.config $RPM_BUILD_ROOT/%{_prefix}/share/alh/pr
 
 #touch $RPM_BUILD_ROOT/%{_prefix}/var/log/alarms.log
 #touch $RPM_BUILD_ROOT/%{_prefix}/var/log/opmod.log
@@ -125,8 +125,5 @@ rm -rf $RPM_BUILD_ROOT
 # * Thu Dec 6 2007 John Doe <jdoe@gemini.edu> VERSION-RELEASE
 # - change made
 # - other change made
- * Thu Jan 23 2008 Javier Lührs
- - Initial release
- * Fri Apr 25 2008 Javier Lührs
- - Updated rpm build files.
- - Created subpackage ecs-ws for the workstation stuff.
+# * April 20 2018 Angelic Ebbers
+# - Initial release

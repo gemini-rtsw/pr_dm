@@ -6,8 +6,8 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="21"
-	npc="16"
-	nstr="70"
+	npc="15"
+	nstr="72"
 	ndynamic="5"
 	nplot="0"
 	nrd="1"
@@ -37,7 +37,7 @@ display {
 	opd="4368"
 	opo="4368"
 	opc="68"
-	ostr="306"
+	ostr="292"
 	ocmap="934"
 	ocrules="934"
 	style="solid"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2541"
-	pixht="1354"
-	mmwid="672"
-	mmht="358"
+	pixwid="2554"
+	pixht="1359"
+	mmwid="676"
+	mmht="360"
 }
 "<<basic attribute>>" {
 	attr {
@@ -168,13 +168,13 @@ display {
 }
 "text" {
 	object {
-		x="22"
-		y="30"
-		width="105"
-		height="37"
+		x="26"
+		y="23"
+		width="110"
+		height="48"
 		groupid="0"
 	}
-	textix="ECS"
+	textix="PR"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
