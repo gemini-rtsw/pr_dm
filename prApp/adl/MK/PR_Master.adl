@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="3"
-	nstr="69"
+	nstr="95"
 	ndynamic="2"
 	nplot="0"
 	nrd="7"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2116"
+	nwords_dspy="2594"
 	nwords_sta="156"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="852"
-	osta="696"
-	odynamic="852"
-	oplot="984"
-	ord="984"
-	oes="2104"
-	okd="2104"
-	opd="2116"
-	opo="2116"
+	odyng="1330"
+	osta="1174"
+	odynamic="1330"
+	oplot="1462"
+	ord="1462"
+	oes="2582"
+	okd="2582"
+	opd="2594"
+	opo="2594"
 	opc="68"
 	ostr="96"
-	ocmap="696"
-	ocrules="696"
+	ocmap="1174"
+	ocrules="1174"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2554"
-	pixht="1359"
-	mmwid="676"
-	mmht="360"
+	pixwid="2558"
+	pixht="1358"
+	mmwid="677"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -751,24 +751,24 @@ display {
 	}
 	selfkill="off"
 	display[0] {
-		label="Electric Power"
+		label="Observatory Electric Consumption"
 		name="pr_elec.dl"
 		args="top=$(top), dev=elec:"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="Chiller 1 Power"
+		name="pr_elec_ch.dl"
+		args="top=$(top)elec:, dev=ch1, tit=1"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="Chiller 2 Power"
+		name="pr_elec_ch.dl"
+		args="top=$(top)elec:, dev=ch2, tit=2"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="Exhaust Fan 2 Power"
+		name="pr_elec_ef.dl"
+		args="top=$(top)elec:, dev=ef2, tit=2"
 	}
 	display[4] {
 		label=""
@@ -1158,9 +1158,9 @@ display {
 		args="top=$(top), dev=cp1"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="CP6A"
+		name="pr_cp.dl"
+		args="top=$(top), dev=cp6A"
 	}
 	display[2] {
 		label=""
