@@ -1,12 +1,7 @@
 TOP = ..
 include $(TOP)/configure/CONFIG
-
-DIRS += adl
-#DIRS += alh
-#DIRS += capfast
-#DIRS += src
-#DIRS += startup
-#DIRS += db
+DIRS := $(DIRS) $(filter-out $(DIRS), adl)
+DIRS := $(DIRS) $(filter-out $(DIRS), scripts)
 
 include $(TOP)/configure/RULES_DIRS
 

@@ -795,4 +795,15 @@ adl/status.adl: Message size increased. Color changed to Red.
 
 ////////////////////////// NOW USING SVN REPO ///////////////////////////
 
+------------------------------------+------------------------------------
+                                 V3-0-0
+  Creating screens for CP. REL-3216 & RTUPG-212
+-------------------------------------------------------------------------
+adl/CP/*: Created initial files using MK screens as skeleton.
+scripts/*: Reorder screen launching scripts to use standard convention.
+.svnignore: Added this file 
+------------------------------------+------------------------------------
+
+
+
 
