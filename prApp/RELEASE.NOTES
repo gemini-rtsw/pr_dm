@@ -792,3 +792,7 @@ adl/ECS_Master.adl
 adl/status.adl: Message size increased. Color changed to Red.
 	renamed main menu option from "DRIVERS POWER" to "Power Control".
 ------------------------------------+------------------------------------
+
+////////////////////////// NOW USING SVN REPO ///////////////////////////
+
+
