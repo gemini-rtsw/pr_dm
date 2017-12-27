@@ -803,7 +803,13 @@ adl/CP/*: Created initial files using MK screens as skeleton.
 scripts/*: Reorder screen launching scripts to use standard convention.
 .svnignore: Added this file 
 ------------------------------------+------------------------------------
-
-
-
+------------------------------------+------------------------------------
+                                 V3-1-0
+  Creating screens for CP. REL-3216 & RTUPG-212
+-------------------------------------------------------------------------
++ .svnignore : Updated to also ignore "*.dl%""
+- prApp/adl/CP/PR_Master.adl: Unused screens on GS removed
+M prApp/adl/CP/pr_ahus.adl: Commands adapted to GS setup
+M prApp/adl/CP/pr_efans.adl: Idem 
+------------------------------------+------------------------------------
 

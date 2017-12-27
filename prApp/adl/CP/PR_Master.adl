@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="3"
-	nstr="89"
+	nstr="57"
 	ndynamic="2"
 	nplot="0"
-	nrd="9"
+	nrd="4"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2690"
+	nwords_dspy="1670"
 	nwords_sta="156"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1106"
-	osta="950"
-	odynamic="1106"
-	oplot="1238"
-	ord="1238"
-	oes="2678"
-	okd="2678"
-	opd="2690"
-	opo="2690"
+	odyng="886"
+	osta="730"
+	odynamic="886"
+	oplot="1018"
+	ord="1018"
+	oes="1658"
+	okd="1658"
+	opd="1670"
+	opo="1670"
 	opc="68"
 	ostr="96"
-	ocmap="950"
-	ocrules="950"
+	ocmap="730"
+	ocrules="730"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -52,7 +52,7 @@ display {
 	pixwid="3840"
 	pixht="1080"
 	mmwid="1016"
-	mmht="286"
+	mmht="285"
 }
 "<<basic attribute>>" {
 	attr {
@@ -475,10 +475,10 @@ display {
 }
 "related display" {
 	object {
-		x="34"
-		y="67"
-		width="204"
-		height="25"
+		x="96"
+		y="65"
+		width="327"
+		height="33"
 		groupid="0"
 	}
 	selfkill="off"
@@ -609,10 +609,10 @@ display {
 }
 "related display" {
 	object {
-		x="34"
-		y="104"
-		width="204"
-		height="25"
+		x="97"
+		y="112"
+		width="326"
+		height="33"
 		groupid="0"
 	}
 	selfkill="off"
@@ -743,144 +743,10 @@ display {
 }
 "related display" {
 	object {
-		x="269"
-		y="104"
-		width="204"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Observatory Electric Consumption"
-		name="pr_elec.dl"
-		args="top=$(top), dev=elec:"
-	}
-	display[1] {
-		label="Chiller 1 Power"
-		name="pr_elec_ch.dl"
-		args="top=$(top)elec:, dev=ch1, tit=1"
-	}
-	display[2] {
-		label="Chiller 2 Power"
-		name="pr_elec_ch.dl"
-		args="top=$(top)elec:, dev=ch2, tit=2"
-	}
-	display[3] {
-		label="Exhaust Fan 2 Power"
-		name="pr_elec_ef.dl"
-		args="top=$(top)elec:, dev=ef2, tit=2"
-	}
-	display[4] {
-		label="Transformer T5 Power"
-		name="pr_elec_t5.dl"
-		args="top=$(top)elec:, dev=t5"
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Electric Power"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="269"
-		y="67"
-		width="204"
-		height="25"
+		x="97"
+		y="160"
+		width="326"
+		height="33"
 		groupid="0"
 	}
 	selfkill="off"
@@ -1007,542 +873,6 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="Chillers"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="34"
-		y="143"
-		width="204"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Generator Power"
-		name="power_transfer.dl"
-		args="top=$(top), dev=trans:"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Generator Power"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="268"
-		y="142"
-		width="204"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="CP1"
-		name="pr_cp.dl"
-		args="top=$(top), dev=cp1"
-	}
-	display[1] {
-		label="CP6A"
-		name="pr_cp.dl"
-		args="top=$(top), dev=cp6A"
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Circulation Pumps"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="33"
-		y="184"
-		width="204"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Helium Pumps"
-		name="pr_helium.dl"
-		args="top=$(top)"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Helium Pumps"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="268"
-		y="186"
-		width="204"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Water Status"
-		name="pr_water.dl"
-		args="top=$(top)"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Water Status"
 	decorate="outward"
 }
 "kill display" {
