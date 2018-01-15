@@ -6,7 +6,7 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="2"
-	npc="18"
+	npc="19"
 	nstr="60"
 	ndynamic="17"
 	nplot="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2588"
+	nwords_dspy="2598"
 	nwords_sta="432"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1162"
-	osta="730"
-	odynamic="1282"
-	oplot="2416"
-	ord="2416"
-	oes="2576"
-	okd="2576"
-	opd="2588"
-	opo="2588"
+	odyng="1172"
+	osta="740"
+	odynamic="1292"
+	oplot="2426"
+	ord="2426"
+	oes="2586"
+	okd="2586"
+	opd="2598"
+	opo="2598"
 	opc="68"
-	ostr="272"
-	ocmap="730"
-	ocrules="730"
+	ostr="282"
+	ocmap="740"
+	ocrules="740"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="3840"
-	pixht="1080"
-	mmwid="1016"
-	mmht="285"
+	pixwid="1920"
+	pixht="1200"
+	mmwid="508"
+	mmht="317"
 }
 "<<basic attribute>>" {
 	attr {
@@ -249,7 +249,7 @@ display {
 }
 "text" {
 	object {
-		x="206"
+		x="217"
 		y="394"
 		width="237"
 		height="20"
@@ -523,7 +523,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)ahuPwrState"
+			chan="$(top)ahuPwrCtrl"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -573,7 +573,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)ahuPwrState"
+			chan="$(top)ahuPwrCtrl"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -597,7 +597,7 @@ display {
 }
 "text" {
 	object {
-		x="293"
+		x="290"
 		y="425"
 		width="45"
 		height="24"

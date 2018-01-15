@@ -812,4 +812,11 @@ scripts/*: Reorder screen launching scripts to use standard convention.
 M prApp/adl/CP/pr_ahus.adl: Commands adapted to GS setup
 M prApp/adl/CP/pr_efans.adl: Idem 
 ------------------------------------+------------------------------------
+------------------------------------+------------------------------------
+                                 V3-1-1
+  Creating screens for CP. REL-3216 & RTUPG-212
+-------------------------------------------------------------------------
+M adl/CP/pr_ahus.adl: pr:ahuPwrState changed to pr:ahuPwrCtrl
+------------------------------------+------------------------------------
+
 
