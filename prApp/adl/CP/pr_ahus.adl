@@ -523,7 +523,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)ahuPwrCtrl"
+			chan="$(top)ahuPwrState"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -573,7 +573,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)ahuPwrCtrl"
+			chan="$(top)ahuPwrState"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
