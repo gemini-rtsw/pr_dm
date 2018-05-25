@@ -1,0 +1,928 @@
+file {
+	name="pr_fcsensors.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="47"
+	nstr="97"
+	ndynamic="8"
+	nplot="0"
+	nrd="1"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="551"
+		height="267"
+	}
+	clr="0"
+	bclr="13"
+	nwords_dspy="2670"
+	nwords_sta="320"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="1970"
+	osta="1650"
+	odynamic="1970"
+	oplot="2498"
+	ord="2498"
+	oes="2658"
+	okd="2658"
+	opd="2670"
+	opo="2670"
+	opc="68"
+	ostr="684"
+	ocmap="1650"
+	ocrules="1650"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+	pixwid="2557"
+	pixht="1358"
+	mmwid="677"
+	mmht="359"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="6"
+		width="78"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="92"
+		y="15"
+		width="364"
+		height="19"
+		groupid="0"
+	}
+	textix="Plant Room Fluid Cooler Sensors"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="5"
+		width="529"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="55"
+		width="533"
+		height="97"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="28"
+		y="8"
+		width="105"
+		height="37"
+		groupid="0"
+	}
+	textix="PR"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="50"
+		width="535"
+		height="29"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="77"
+		width="79"
+		height="74"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="15"
+		y="88"
+		width="77"
+		height="20"
+		groupid="0"
+	}
+	textix="FC In"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="13"
+		y="119"
+		width="85"
+		height="20"
+		groupid="0"
+	}
+	textix="FC Out"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="92"
+		y="51"
+		width="146"
+		height="22"
+		groupid="0"
+	}
+	textix="Temperature"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="273"
+		y="53"
+		width="132"
+		height="21"
+		groupid="0"
+	}
+	textix="Pressure"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="429"
+		y="53"
+		width="106"
+		height="22"
+		groupid="0"
+	}
+	textix="Flow"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="343"
+		y="93"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[PSI]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="344"
+		y="121"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[PSI]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="189"
+		y="92"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="191"
+		y="122"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="494"
+		y="119"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[gpm]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="162"
+		width="533"
+		height="97"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="162"
+		width="355"
+		height="97"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="16"
+		y="171"
+		width="346"
+		height="20"
+		groupid="0"
+	}
+	textix="CP6A/B Suction Pressure"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="18"
+		y="198"
+		width="342"
+		height="20"
+		groupid="0"
+	}
+	textix="CP8 Boost Discharge Pressure"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="20"
+		y="226"
+		width="339"
+		height="20"
+		groupid="0"
+	}
+	textix="Coolant Supply for HE Comp"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="481"
+		y="170"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[PSI]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="205"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[PSI]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="234"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text update" {
+	object {
+		x="106"
+		y="87"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcInTemp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcInTemp.SEVR.SEVR"
+		rulechan[1] = "$(top)fcInTemp.SEVR.SEVR"
+		rulechan[2] = "$(top)fcInTemp.SEVR.SEVR"
+		rulechan[3] = "$(top)fcInTemp.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcInTemp.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="251"
+		y="88"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcInPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcInPres.SEVR.SEVR"
+		rulechan[1] = "$(top)fcInPres.SEVR.SEVR"
+		rulechan[2] = "$(top)fcInPres.SEVR.SEVR"
+		rulechan[3] = "$(top)fcInPres.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcInPres.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="106"
+		y="117"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcOutTemp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcOutTemp.SEVR.SEVR"
+		rulechan[1] = "$(top)fcOutTemp.SEVR.SEVR"
+		rulechan[2] = "$(top)fcOutTemp.SEVR.SEVR"
+		rulechan[3] = "$(top)fcOutTemp.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcOutTemp.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="251"
+		y="118"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcOutPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcOutPres.SEVR.SEVR"
+		rulechan[1] = "$(top)fcOutPres.SEVR.SEVR"
+		rulechan[2] = "$(top)fcOutPres.SEVR.SEVR"
+		rulechan[3] = "$(top)fcOutPres.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcOutPres.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="406"
+		y="114"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcOutFlow"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[1] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[2] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[3] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcOutFlow.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="381"
+		y="167"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)cp6abInPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)cp6abInPres.SEVR.SEVR"
+		rulechan[1] = "$(top)cp6abInPres.SEVR.SEVR"
+		rulechan[2] = "$(top)cp6abInPres.SEVR.SEVR"
+		rulechan[3] = "$(top)cp6abInPres.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)cp6abInPres.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="381"
+		y="198"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)cp8OutPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)cp8OutPres.SEVR.SEVR"
+		rulechan[1] = "$(top)cp8OutPres.SEVR.SEVR"
+		rulechan[2] = "$(top)cp8OutPres.SEVR.SEVR"
+		rulechan[3] = "$(top)cp8OutPres.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)cp8OutPres.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="381"
+		y="230"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)heSupplyTemp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)heSupplyTemp.SEVR.SEVR"
+		rulechan[1] = "$(top)heSupplyTemp.SEVR.SEVR"
+		rulechan[2] = "$(top)heSupplyTemp.SEVR.SEVR"
+		rulechan[3] = "$(top)heSupplyTemp.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)heSupplyTemp.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="454"
+		y="8"
+		width="82"
+		height="34"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

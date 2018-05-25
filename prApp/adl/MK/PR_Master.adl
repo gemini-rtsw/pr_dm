@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="3"
-	nstr="90"
+	nstr="145"
 	ndynamic="2"
 	nplot="0"
 	nrd="9"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2704"
+	nwords_dspy="3946"
 	nwords_sta="156"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1120"
-	osta="964"
-	odynamic="1120"
-	oplot="1252"
-	ord="1252"
-	oes="2692"
-	okd="2692"
-	opd="2704"
-	opo="2704"
+	odyng="2362"
+	osta="2206"
+	odynamic="2362"
+	oplot="2494"
+	ord="2494"
+	oes="3934"
+	okd="3934"
+	opd="3946"
+	opo="3946"
 	opc="68"
 	ostr="96"
-	ocmap="964"
-	ocrules="964"
+	ocmap="2206"
+	ocrules="2206"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2559"
-	pixht="1362"
+	pixwid="2557"
+	pixht="1358"
 	mmwid="677"
-	mmht="360"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1153,44 +1153,44 @@ display {
 	}
 	selfkill="off"
 	display[0] {
-		label="CP1"
-		name="pr_cp.dl"
-		args="top=$(top), dev=cp1"
-	}
-	display[1] {
-		label="CP6A"
-		name="pr_cp.dl"
-		args="top=$(top), dev=cp6A"
-	}
-	display[2] {
 		label="Pump Pressures"
 		name="pr_pumps.dl"
 		args="top=$(top)"
 	}
+	display[1] {
+		label="Fluid Cooler Sensors"
+		name="pr_fcsensors.dl"
+		args="top=$(top)"
+	}
+	display[2] {
+		label="CP1"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump,  dev=cp1"
+	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="CP6A"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp6A"
 	}
 	display[4] {
-		label=""
-		name=""
-		args=""
+		label="CP6B"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CircultionPump, dev=cp6B"
 	}
 	display[5] {
-		label=""
-		name=""
-		args=""
+		label="CP8"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp8"
 	}
 	display[6] {
-		label=""
-		name=""
-		args=""
+		label="FCF1"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=FluidCoolerFan, dev=fcf1"
 	}
 	display[7] {
-		label=""
-		name=""
-		args=""
+		label="FCF2"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=FluidCoolerFan, dev=fcf2"
 	}
 	display[8] {
 		label=""
@@ -1274,7 +1274,7 @@ display {
 	}
 	clr="0"
 	bclr="6"
-	menu_title="Circulation Pumps"
+	menu_title="Circulation Pumps and FC Fans"
 	decorate="outward"
 }
 "related display" {
