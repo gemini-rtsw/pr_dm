@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="0"
-	npc="47"
-	nstr="97"
-	ndynamic="8"
+	ndyng="4"
+	npc="55"
+	nstr="130"
+	ndynamic="10"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="551"
-		height="267"
+		height="487"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2670"
-	nwords_sta="320"
+	nwords_dspy="3822"
+	nwords_sta="636"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1970"
-	osta="1650"
-	odynamic="1970"
-	oplot="2498"
-	ord="2498"
-	oes="2658"
-	okd="2658"
-	opd="2670"
-	opo="2670"
+	odyng="2766"
+	osta="2130"
+	odynamic="2990"
+	oplot="3650"
+	ord="3650"
+	oes="3810"
+	okd="3810"
+	opd="3822"
+	opo="3822"
 	opc="68"
-	ostr="684"
-	ocmap="1650"
-	ocrules="1650"
+	ostr="790"
+	ocmap="2130"
+	ocrules="2130"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -56,10 +56,79 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="14"
+		y="253"
+		width="530"
+		height="101"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
 		clr="9"
 		style="solid"
 		fill="solid"
 		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="253"
+		width="360"
+		height="101"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="14"
+		y="133"
+		width="530"
+		height="118"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="272"
+		y="48"
+		width="270"
+		height="38"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="133"
+		width="360"
+		height="117"
+		groupid="0"
 	}
 }
 "rectangle" {
@@ -109,23 +178,6 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="11"
-		y="55"
-		width="533"
-		height="97"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
 		clr="13"
 		style="solid"
 		fill="solid"
@@ -153,19 +205,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="50"
-		width="535"
-		height="29"
-		groupid="0"
-	}
-}
-"rectangle" {
-	object {
-		x="9"
-		y="77"
-		width="79"
-		height="74"
+		x="12"
+		y="48"
+		width="359"
+		height="38"
 		groupid="0"
 	}
 }
@@ -179,57 +222,24 @@ display {
 }
 "text" {
 	object {
-		x="15"
-		y="88"
-		width="77"
+		x="45"
+		y="192"
+		width="209"
 		height="20"
 		groupid="0"
 	}
-	textix="FC In"
+	textix="= FC Pressure In"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="13"
-		y="119"
-		width="85"
+		x="16"
+		y="221"
+		width="209"
 		height="20"
 		groupid="0"
 	}
-	textix="FC Out"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="92"
-		y="51"
-		width="146"
-		height="22"
-		groupid="0"
-	}
-	textix="Temperature"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="273"
-		y="53"
-		width="132"
-		height="21"
-		groupid="0"
-	}
-	textix="Pressure"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="429"
-		y="53"
-		width="106"
-		height="22"
-		groupid="0"
-	}
-	textix="Flow"
+	textix="FC Pressure Out"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -242,8 +252,8 @@ display {
 }
 "text" {
 	object {
-		x="343"
-		y="93"
+		x="481"
+		y="185"
 		width="52"
 		height="15"
 		groupid="0"
@@ -253,8 +263,8 @@ display {
 }
 "text" {
 	object {
-		x="344"
-		y="121"
+		x="481"
+		y="224"
 		width="52"
 		height="15"
 		groupid="0"
@@ -264,8 +274,8 @@ display {
 }
 "text" {
 	object {
-		x="189"
-		y="92"
+		x="481"
+		y="270"
 		width="58"
 		height="15"
 		groupid="0"
@@ -275,24 +285,13 @@ display {
 }
 "text" {
 	object {
-		x="191"
-		y="122"
+		x="481"
+		y="300"
 		width="58"
 		height="15"
 		groupid="0"
 	}
 	textix="[degC]"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="494"
-		y="119"
-		width="58"
-		height="15"
-		groupid="0"
-	}
-	textix="[gpm]"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -305,10 +304,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="162"
-		width="533"
-		height="97"
+		x="14"
+		y="400"
+		width="531"
+		height="83"
 		groupid="0"
 	}
 }
@@ -322,10 +321,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="162"
-		width="355"
-		height="97"
+		x="12"
+		y="400"
+		width="361"
+		height="83"
 		groupid="0"
 	}
 }
@@ -340,35 +339,24 @@ display {
 "text" {
 	object {
 		x="16"
-		y="171"
-		width="346"
+		y="142"
+		width="284"
 		height="20"
 		groupid="0"
 	}
 	textix="CP6A/B Suction Pressure"
-	align="horiz. right"
+	align="horiz. left"
 }
 "text" {
 	object {
-		x="18"
-		y="198"
-		width="342"
+		x="21"
+		y="448"
+		width="269"
 		height="20"
 		groupid="0"
 	}
-	textix="CP8 Boost Discharge Pressure"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="20"
-		y="226"
-		width="339"
-		height="20"
-		groupid="0"
-	}
-	textix="Coolant Supply for HE Comp"
-	align="horiz. right"
+	textix="CP8 Discharge Pressure"
+	align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
@@ -381,7 +369,7 @@ display {
 "text" {
 	object {
 		x="481"
-		y="170"
+		y="145"
 		width="52"
 		height="15"
 		groupid="0"
@@ -392,7 +380,7 @@ display {
 "text" {
 	object {
 		x="481"
-		y="205"
+		y="451"
 		width="52"
 		height="15"
 		groupid="0"
@@ -400,10 +388,48 @@ display {
 	textix="[PSI]"
 	align="horiz. left"
 }
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
 "text" {
 	object {
-		x="481"
-		y="234"
+		x="16"
+		y="57"
+		width="217"
+		height="20"
+		groupid="0"
+	}
+	textix="FC area Air Temp"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="328"
+		y="59"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TT70"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="478"
+		y="60"
 		width="58"
 		height="15"
 		groupid="0"
@@ -411,10 +437,545 @@ display {
 	textix="[degC]"
 	align="horiz. left"
 }
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="16"
+		y="174"
+		width="312"
+		height="20"
+		groupid="0"
+	}
+	textix="CP6A/B Discharge Pressure"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="326"
+		y="144"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT52"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="184"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT50"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="223"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT51"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="267"
+		width="209"
+		height="20"
+		groupid="0"
+	}
+	textix="FC Temperature In"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="297"
+		width="232"
+		height="20"
+		groupid="0"
+	}
+	textix="FC Temperature Out"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="326"
+		y="269"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TT50"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="299"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TT51"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="356"
+		width="533"
+		height="42"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="356"
+		width="361"
+		height="42"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="414"
+		width="265"
+		height="20"
+		groupid="0"
+	}
+	textix="CP8 Suction Pressure"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="326"
+		width="201"
+		height="20"
+		groupid="0"
+	}
+	textix="FC Flow"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="481"
+		y="329"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[gpm]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="368"
+		width="297"
+		height="19"
+		groupid="0"
+	}
+	textix="Coolant Supply for HE Comp"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="481"
+		y="370"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="417"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[PSI]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="89"
+		width="531"
+		height="41"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="108"
+		y="100"
+		width="139"
+		height="19"
+		groupid="0"
+	}
+	textix="CP6A running"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="355"
+		y="100"
+		width="139"
+		height="19"
+		groupid="0"
+	}
+	textix="CP6B running"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="328"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="FM50"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="369"
+		width="48"
+		height="17"
+		groupid="0"
+	}
+	textix="TT53"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="416"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT66"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="326"
+		y="450"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT54"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)cp6Arunning"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="64"
+		y="96"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)cp6Arunning"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="64"
+		y="96"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)cp6Brunning"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="306"
+		y="96"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)cp6Brunning"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="306"
+		y="96"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
 "text update" {
 	object {
-		x="106"
-		y="87"
+		x="386"
+		y="265"
 		width="80"
 		height="24"
 		groupid="0"
@@ -459,8 +1020,8 @@ display {
 }
 "text update" {
 	object {
-		x="251"
-		y="88"
+		x="386"
+		y="180"
 		width="80"
 		height="24"
 		groupid="0"
@@ -505,8 +1066,8 @@ display {
 }
 "text update" {
 	object {
-		x="106"
-		y="117"
+		x="386"
+		y="295"
 		width="80"
 		height="24"
 		groupid="0"
@@ -551,8 +1112,8 @@ display {
 }
 "text update" {
 	object {
-		x="251"
-		y="118"
+		x="386"
+		y="219"
 		width="80"
 		height="24"
 		groupid="0"
@@ -597,54 +1158,8 @@ display {
 }
 "text update" {
 	object {
-		x="406"
-		y="114"
-		width="80"
-		height="24"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)fcOutFlow"
-		clr="11"
-		bclr="6"
-		label="none"
-		clrmod="rule"
-		rulechan[0] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[1] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[2] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[3] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs="C=$(top)fcOutFlow.SEVR"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="381"
-		y="167"
+		x="386"
+		y="140"
 		width="80"
 		height="24"
 		groupid="0"
@@ -689,8 +1204,8 @@ display {
 }
 "text update" {
 	object {
-		x="381"
-		y="198"
+		x="386"
+		y="446"
 		width="80"
 		height="24"
 		groupid="0"
@@ -735,8 +1250,100 @@ display {
 }
 "text update" {
 	object {
-		x="381"
-		y="230"
+		x="387"
+		y="55"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcAirTemp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcAirTemp.SEVR.SEVR"
+		rulechan[1] = "$(top)fcAirTemp.SEVR.SEVR"
+		rulechan[2] = "$(top)fcAirTemp.SEVR.SEVR"
+		rulechan[3] = "$(top)fcAirTemp.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcAirTemp.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="386"
+		y="324"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fcOutFlow"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[1] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[2] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[3] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)fcOutFlow.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="386"
+		y="365"
 		width="80"
 		height="24"
 		groupid="0"
@@ -765,6 +1372,52 @@ display {
 		rulechan[15] = ""
 		clrrule="alarm"
 		clrargs="C=$(top)heSupplyTemp.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="386"
+		y="412"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)cp8InPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)cp8InPres.SEVR.SEVR"
+		rulechan[1] = "$(top)cp8InPres.SEVR.SEVR"
+		rulechan[2] = "$(top)cp8InPres.SEVR.SEVR"
+		rulechan[3] = "$(top)cp8InPres.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)cp8InPres.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
