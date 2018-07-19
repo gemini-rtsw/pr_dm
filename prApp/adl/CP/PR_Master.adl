@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="3"
-	nstr="57"
+	nstr="62"
 	ndynamic="2"
 	nplot="0"
-	nrd="4"
+	nrd="5"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="516"
-		height="331"
+		width="522"
+		height="368"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="1670"
+	nwords_dspy="1716"
 	nwords_sta="156"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="886"
-	osta="730"
-	odynamic="886"
-	oplot="1018"
-	ord="1018"
-	oes="1658"
-	okd="1658"
-	opd="1670"
-	opo="1670"
+	odyng="772"
+	osta="616"
+	odynamic="772"
+	oplot="904"
+	ord="904"
+	oes="1704"
+	okd="1704"
+	opd="1716"
+	opo="1716"
 	opc="68"
 	ostr="96"
-	ocmap="730"
-	ocrules="730"
+	ocmap="616"
+	ocrules="616"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -52,7 +52,7 @@ display {
 	pixwid="3840"
 	pixht="1080"
 	mmwid="1016"
-	mmht="285"
+	mmht="286"
 }
 "<<basic attribute>>" {
 	attr {
@@ -117,8 +117,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="8"
-		y="228"
+		x="12"
+		y="263"
 		width="493"
 		height="88"
 		groupid="0"
@@ -134,8 +134,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="227"
+		x="13"
+		y="262"
 		width="492"
 		height="32"
 		groupid="0"
@@ -170,8 +170,8 @@ display {
 }
 "text" {
 	object {
-		x="66"
-		y="267"
+		x="70"
+		y="302"
 		width="71"
 		height="17"
 		groupid="0"
@@ -189,8 +189,8 @@ display {
 }
 "text" {
 	object {
-		x="9"
-		y="232"
+		x="13"
+		y="267"
 		width="490"
 		height="21"
 		groupid="0"
@@ -208,8 +208,8 @@ display {
 }
 "text" {
 	object {
-		x="40"
-		y="279"
+		x="44"
+		y="314"
 		width="105"
 		height="17"
 		groupid="0"
@@ -227,8 +227,8 @@ display {
 }
 "text" {
 	object {
-		x="297"
-		y="266"
+		x="301"
+		y="301"
 		width="94"
 		height="15"
 		groupid="0"
@@ -238,8 +238,8 @@ display {
 }
 "text" {
 	object {
-		x="316"
-		y="281"
+		x="320"
+		y="316"
 		width="75"
 		height="15"
 		groupid="0"
@@ -249,8 +249,8 @@ display {
 }
 "text update" {
 	object {
-		x="160"
-		y="269"
+		x="164"
+		y="304"
 		width="91"
 		height="27"
 		groupid="0"
@@ -295,8 +295,8 @@ display {
 }
 "text update" {
 	object {
-		x="405"
-		y="269"
+		x="409"
+		y="304"
 		width="69"
 		height="28"
 		groupid="0"
@@ -873,6 +873,140 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="Chillers"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="100"
+		y="211"
+		width="326"
+		height="33"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Air Compressor"
+		name="pr_air_comp.dl"
+		args="top=$(top), dev=elec:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Air compressor"
 	decorate="outward"
 }
 "kill display" {
