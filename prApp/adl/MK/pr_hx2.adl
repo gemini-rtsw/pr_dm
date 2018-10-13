@@ -1,14 +1,14 @@
 file {
-	name="pr_fcsensors.dl"
+	name="pr_hx2.dl"
 }
 display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="8"
+	ndyng="0"
 	npc="59"
-	nstr="138"
-	ndynamic="11"
+	nstr="142"
+	ndynamic="14"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="548"
-		height="571"
+		width="553"
+		height="632"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="4332"
-	nwords_sta="716"
+	nwords_dspy="4380"
+	nwords_sta="724"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2986"
-	osta="2270"
-	odynamic="3434"
-	oplot="4160"
-	ord="4160"
-	oes="4320"
-	okd="4320"
-	opd="4332"
-	opo="4332"
+	odyng="3284"
+	osta="2560"
+	odynamic="3284"
+	oplot="4208"
+	ord="4208"
+	oes="4368"
+	okd="4368"
+	opd="4380"
+	opo="4380"
 	opc="68"
-	ostr="842"
-	ocmap="2270"
-	ocrules="2270"
+	ostr="956"
+	ocmap="2560"
+	ocrules="2560"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,9 +49,9 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2557"
+	pixwid="2556"
 	pixht="1358"
-	mmwid="677"
+	mmwid="676"
 	mmht="359"
 }
 "<<basic attribute>>" {
@@ -65,9 +65,9 @@ display {
 "rectangle" {
 	object {
 		x="13"
-		y="294"
+		y="291"
 		width="530"
-		height="101"
+		height="331"
 		groupid="0"
 	}
 }
@@ -82,9 +82,9 @@ display {
 "rectangle" {
 	object {
 		x="11"
-		y="294"
+		y="291"
 		width="360"
-		height="101"
+		height="331"
 		groupid="0"
 	}
 }
@@ -98,17 +98,17 @@ display {
 }
 "rectangle" {
 	object {
-		x="13"
-		y="174"
+		x="14"
+		y="51"
 		width="530"
-		height="118"
+		height="195"
 		groupid="0"
 	}
 }
 "rectangle" {
 	object {
-		x="272"
-		y="48"
+		x="273"
+		y="249"
 		width="270"
 		height="38"
 		groupid="0"
@@ -124,10 +124,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="174"
+		x="12"
+		y="51"
 		width="360"
-		height="117"
+		height="195"
 		groupid="0"
 	}
 }
@@ -156,7 +156,7 @@ display {
 		height="25"
 		groupid="0"
 	}
-	textix="Plant Room Fluid Cooler"
+	textix="Heat Exchanger 2"
 	align="horiz. centered"
 }
 "<<basic attribute>>" {
@@ -205,8 +205,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="12"
-		y="48"
+		x="13"
+		y="249"
 		width="359"
 		height="38"
 		groupid="0"
@@ -222,24 +222,13 @@ display {
 }
 "text" {
 	object {
-		x="44"
-		y="233"
-		width="209"
+		x="23"
+		y="404"
+		width="261"
 		height="20"
 		groupid="0"
 	}
-	textix="= FC Pressure In"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="15"
-		y="262"
-		width="209"
-		height="20"
-		groupid="0"
-	}
-	textix="FC Pressure Out"
+	textix="CP7 suction Pressure"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -252,8 +241,8 @@ display {
 }
 "text" {
 	object {
-		x="480"
-		y="226"
+		x="484"
+		y="447"
 		width="52"
 		height="15"
 		groupid="0"
@@ -263,19 +252,8 @@ display {
 }
 "text" {
 	object {
-		x="480"
-		y="265"
-		width="52"
-		height="15"
-		groupid="0"
-	}
-	textix="[PSI]"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="480"
-		y="311"
+		x="483"
+		y="92"
 		width="58"
 		height="15"
 		groupid="0"
@@ -285,48 +263,14 @@ display {
 }
 "text" {
 	object {
-		x="480"
-		y="341"
+		x="483"
+		y="122"
 		width="58"
 		height="15"
 		groupid="0"
 	}
 	textix="[degC]"
 	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="12"
-		y="485"
-		width="531"
-		height="83"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="10"
-		y="485"
-		width="361"
-		height="83"
-		groupid="0"
-	}
 }
 "<<basic attribute>>" {
 	attr {
@@ -338,24 +282,13 @@ display {
 }
 "text" {
 	object {
-		x="15"
-		y="183"
-		width="284"
+		x="23"
+		y="435"
+		width="304"
 		height="20"
 		groupid="0"
 	}
-	textix="CP6A/B Suction Pressure"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="19"
-		y="533"
-		width="269"
-		height="20"
-		groupid="0"
-	}
-	textix="CP8 Discharge Pressure"
+	textix="Pressure In"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -368,24 +301,73 @@ display {
 }
 "text" {
 	object {
-		x="480"
-		y="186"
+		x="484"
+		y="407"
 		width="52"
 		height="15"
 		groupid="0"
 	}
 	textix="[PSI]"
 	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="17"
+		y="258"
+		width="294"
+		height="20"
+		groupid="0"
+	}
+	textix="TCV62 PID loop setpoint"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
 }
 "text" {
 	object {
 		x="479"
-		y="536"
-		width="52"
+		y="261"
+		width="58"
 		height="15"
 		groupid="0"
 	}
-	textix="[PSI]"
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="329"
+		y="406"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT63"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="329"
+		y="446"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT64"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -398,13 +380,24 @@ display {
 }
 "text" {
 	object {
-		x="16"
-		y="57"
-		width="217"
+		x="23"
+		y="89"
+		width="209"
 		height="20"
 		groupid="0"
 	}
-	textix="FC area Air Temp"
+	textix="Temperature In"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="23"
+		y="119"
+		width="232"
+		height="20"
+		groupid="0"
+	}
+	textix="Temperature Out"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -418,23 +411,23 @@ display {
 "text" {
 	object {
 		x="328"
-		y="59"
+		y="91"
 		width="58"
 		height="17"
 		groupid="0"
 	}
-	textix="TT70"
+	textix="TT62"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="478"
-		y="60"
+		x="328"
+		y="121"
 		width="58"
-		height="15"
+		height="17"
 		groupid="0"
 	}
-	textix="[degC]"
+	textix="TT63"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -447,13 +440,13 @@ display {
 }
 "text" {
 	object {
-		x="15"
-		y="215"
-		width="312"
+		x="25"
+		y="150"
+		width="262"
 		height="20"
 		groupid="0"
 	}
-	textix="CP6A/B Discharge Pressure"
+	textix="HX2 cold side Flow"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -466,173 +459,8 @@ display {
 }
 "text" {
 	object {
-		x="325"
-		y="185"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="PT52"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="325"
-		y="225"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="PT50"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="325"
-		y="264"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="PT51"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="13"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="20"
-		y="308"
-		width="209"
-		height="20"
-		groupid="0"
-	}
-	textix="FC Temperature In"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="20"
-		y="338"
-		width="232"
-		height="20"
-		groupid="0"
-	}
-	textix="FC Temperature Out"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="10"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="325"
-		y="310"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="TT50"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="325"
-		y="340"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="TT51"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="10"
-		y="441"
-		width="533"
-		height="42"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="10"
-		y="441"
-		width="361"
-		height="42"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="13"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="19"
-		y="499"
-		width="265"
-		height="20"
-		groupid="0"
-	}
-	textix="CP8 Suction Pressure"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="20"
-		y="367"
-		width="201"
-		height="20"
-		groupid="0"
-	}
-	textix="FC Flow"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="10"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="480"
-		y="370"
+		x="485"
+		y="153"
 		width="58"
 		height="15"
 		groupid="0"
@@ -640,6 +468,28 @@ display {
 	textix="[gpm]"
 	align="horiz. left"
 }
+"text" {
+	object {
+		x="330"
+		y="152"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="FM63"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="26"
+		y="379"
+		width="332"
+		height="17"
+		groupid="0"
+	}
+	textix="TCV62 PID loop process variable"
+	align="horiz. left"
+}
 "<<basic attribute>>" {
 	attr {
 		clr="13"
@@ -650,13 +500,13 @@ display {
 }
 "text" {
 	object {
-		x="19"
-		y="453"
+		x="24"
+		y="213"
 		width="297"
 		height="19"
 		groupid="0"
 	}
-	textix="Coolant Supply for HE Comp"
+	textix="HX2 absobed Heat Power"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -669,8 +519,122 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="455"
+		x="484"
+		y="215"
+		width="65"
+		height="15"
+		groupid="0"
+	}
+	textix="[kW]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="28"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="124"
+		y="57"
+		width="209"
+		height="20"
+		groupid="0"
+	}
+	textix="HX2 Cold Side"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="485"
+		y="183"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[%]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="25"
+		y="180"
+		width="282"
+		height="20"
+		groupid="0"
+	}
+	textix="Control Valve Position"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="321"
+		y="182"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TCV62"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="26"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="136"
+		y="300"
+		width="209"
+		height="20"
+		groupid="0"
+	}
+	textix="HX2 Warm Side"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="483"
+		y="331"
 		width="58"
 		height="15"
 		groupid="0"
@@ -680,139 +644,14 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="502"
-		width="52"
+		x="483"
+		y="361"
+		width="58"
 		height="15"
 		groupid="0"
 	}
-	textix="[PSI]"
+	textix="[degC]"
 	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="12"
-		y="89"
-		width="531"
-		height="83"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="10"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="111"
-		y="102"
-		width="139"
-		height="19"
-		groupid="0"
-	}
-	textix="CP6A running"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="111"
-		y="134"
-		width="139"
-		height="19"
-		groupid="0"
-	}
-	textix="CP6B running"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="325"
-		y="369"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="FM50"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="324"
-		y="454"
-		width="48"
-		height="17"
-		groupid="0"
-	}
-	textix="TT53"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="324"
-		y="501"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="PT66"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="324"
-		y="535"
-		width="58"
-		height="17"
-		groupid="0"
-	}
-	textix="PT54"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="10"
-		y="397"
-		width="533"
-		height="42"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="10"
-		y="397"
-		width="361"
-		height="42"
-		groupid="0"
-	}
 }
 "<<basic attribute>>" {
 	attr {
@@ -824,13 +663,24 @@ display {
 }
 "text" {
 	object {
-		x="19"
-		y="409"
-		width="297"
-		height="19"
+		x="23"
+		y="325"
+		width="209"
+		height="20"
 		groupid="0"
 	}
-	textix="FC Rejected Heat Power"
+	textix="Temperature In"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="23"
+		y="355"
+		width="232"
+		height="20"
+		groupid="0"
+	}
+	textix="Temperature Out"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -843,8 +693,117 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="411"
+		x="328"
+		y="330"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TT64"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="328"
+		y="360"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="TT65"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="60"
+		y="455"
+		width="272"
+		height="17"
+		groupid="0"
+	}
+	textix="= CP7 discharge pressure"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="23"
+		y="479"
+		width="262"
+		height="20"
+		groupid="0"
+	}
+	textix="HX2 warm side Flow"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="485"
+		y="484"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[gpm]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="328"
+		y="483"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="FM64"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="26"
+		y="519"
+		width="297"
+		height="19"
+		groupid="0"
+	}
+	textix="HX2 rejeted Heat Power"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="485"
+		y="517"
 		width="65"
 		height="15"
 		groupid="0"
@@ -852,430 +811,100 @@ display {
 	textix="[kW]"
 	align="horiz. left"
 }
-"text" {
-	object {
-		x="354"
-		y="102"
-		width="139"
-		height="19"
-		groupid="0"
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
 	}
-	textix="fcf1 running"
-	align="horiz. left"
 }
 "text" {
 	object {
-		x="354"
-		y="134"
-		width="139"
+		x="31"
+		y="555"
+		width="297"
 		height="19"
 		groupid="0"
 	}
-	textix="fcf2 running"
+	textix="CP7 VFD output freq"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="24"
+		clr="10"
 		style="solid"
 		fill="solid"
 		width="0"
 	}
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)cp6Arunning"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
+"text" {
 	object {
-		x="64"
-		y="96"
-		width="27"
-		height="27"
+		x="489"
+		y="553"
+		width="65"
+		height="15"
 		groupid="0"
 	}
+	textix="[Hz]"
+	align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="2"
+		clr="13"
 		style="solid"
 		fill="solid"
 		width="0"
 	}
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)cp6Arunning"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
+"text" {
 	object {
-		x="64"
-		y="96"
-		width="27"
-		height="27"
+		x="31"
+		y="587"
+		width="297"
+		height="19"
 		groupid="0"
 	}
+	textix="CP7 VFD output power"
+	align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="24"
+		clr="10"
 		style="solid"
 		fill="solid"
 		width="0"
 	}
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)cp6Brunning"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
+"text" {
 	object {
-		x="64"
-		y="132"
-		width="27"
-		height="27"
+		x="489"
+		y="581"
+		width="65"
+		height="15"
 		groupid="0"
 	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)cp6Brunning"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
-	object {
-		x="64"
-		y="132"
-		width="27"
-		height="27"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="24"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)fcf1running"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
-	object {
-		x="307"
-		y="96"
-		width="27"
-		height="27"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)fcf1running"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
-	object {
-		x="307"
-		y="96"
-		width="27"
-		height="27"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="24"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)fcf2running"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
-	object {
-		x="307"
-		y="132"
-		width="27"
-		height="27"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)fcf2running"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"oval" {
-	object {
-		x="307"
-		y="132"
-		width="27"
-		height="27"
-		groupid="0"
-	}
+	textix="[kW]"
+	align="horiz. left"
 }
 "text update" {
 	object {
-		x="385"
-		y="306"
+		x="388"
+		y="87"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcInTemp"
+		chan="$(top)hx2coldTempIn"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcInTemp.SEVR.SEVR"
-		rulechan[1] = "$(top)fcInTemp.SEVR.SEVR"
-		rulechan[2] = "$(top)fcInTemp.SEVR.SEVR"
-		rulechan[3] = "$(top)fcInTemp.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2coldTempIn.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2coldTempIn.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2coldTempIn.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2coldTempIn.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1289,7 +918,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcInTemp.SEVR"
+		clrargs="C=$(top)hx2coldTempIn.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1306,22 +935,22 @@ display {
 }
 "text update" {
 	object {
-		x="385"
-		y="221"
+		x="388"
+		y="117"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcInPres"
+		chan="$(top)hx2coldTempOut"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcInPres.SEVR.SEVR"
-		rulechan[1] = "$(top)fcInPres.SEVR.SEVR"
-		rulechan[2] = "$(top)fcInPres.SEVR.SEVR"
-		rulechan[3] = "$(top)fcInPres.SEVR.SEVR"
+		rulechan[0] = "$(top)hx3coldTempOut.SEVR.SEVR"
+		rulechan[1] = "$(top)hx3coldTempOut.SEVR.SEVR"
+		rulechan[2] = "$(top)hx3coldTempOut.SEVR.SEVR"
+		rulechan[3] = "$(top)hx3coldTempOut.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1335,7 +964,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcInPres.SEVR"
+		clrargs="C=$(top)hx3coldTempOut.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1352,22 +981,22 @@ display {
 }
 "text update" {
 	object {
-		x="385"
-		y="336"
+		x="389"
+		y="402"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcOutTemp"
+		chan="$(top)cp7InPres"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcOutTemp.SEVR.SEVR"
-		rulechan[1] = "$(top)fcOutTemp.SEVR.SEVR"
-		rulechan[2] = "$(top)fcOutTemp.SEVR.SEVR"
-		rulechan[3] = "$(top)fcOutTemp.SEVR.SEVR"
+		rulechan[0] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[1] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[2] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[3] = "$(top)cp7InPres.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1381,7 +1010,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcOutTemp.SEVR"
+		clrargs="C=$(top)cp7InPres.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1398,22 +1027,22 @@ display {
 }
 "text update" {
 	object {
-		x="385"
-		y="260"
+		x="388"
+		y="256"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcOutPres"
+		chan="$(top)hx2coldSetPoint"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcOutPres.SEVR.SEVR"
-		rulechan[1] = "$(top)fcOutPres.SEVR.SEVR"
-		rulechan[2] = "$(top)fcOutPres.SEVR.SEVR"
-		rulechan[3] = "$(top)fcOutPres.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2coldSetPoint.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2coldSetPoint.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2coldSetPoint.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2coldSetPoint.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1427,7 +1056,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcOutPres.SEVR"
+		clrargs="C=$(top)hx2coldSetPoint.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1444,22 +1073,22 @@ display {
 }
 "text update" {
 	object {
-		x="385"
-		y="181"
+		x="390"
+		y="148"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)cp6abInPres"
+		chan="$(top)hx2coldFlow"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)cp6abInPres.SEVR.SEVR"
-		rulechan[1] = "$(top)cp6abInPres.SEVR.SEVR"
-		rulechan[2] = "$(top)cp6abInPres.SEVR.SEVR"
-		rulechan[3] = "$(top)cp6abInPres.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2coldFlow.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2coldFlow.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2coldFlow.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2coldFlow.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1473,7 +1102,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)cp6abInPres.SEVR"
+		clrargs="C=$(top)hx2coldFlow.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1490,22 +1119,22 @@ display {
 }
 "text update" {
 	object {
-		x="384"
-		y="531"
+		x="389"
+		y="210"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)cp8OutPres"
+		chan="$(top)hx2coldAbsPow"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)cp8OutPres.SEVR.SEVR"
-		rulechan[1] = "$(top)cp8OutPres.SEVR.SEVR"
-		rulechan[2] = "$(top)cp8OutPres.SEVR.SEVR"
-		rulechan[3] = "$(top)cp8OutPres.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2coldAbsPow.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2coldAbsPow.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2coldAbsPow.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2coldAbsPow.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1519,7 +1148,53 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)cp8OutPres.SEVR"
+		clrargs="C=$(top)hx2coldAbsPow.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="2"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="390"
+		y="178"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)hx2coldValve"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)hx3coldValve.SEVR.SEVR"
+		rulechan[1] = "$(top)hx3coldValve.SEVR.SEVR"
+		rulechan[2] = "$(top)hx3coldValve.SEVR.SEVR"
+		rulechan[3] = "$(top)hx3coldValve.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)hx3coldValve.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1536,22 +1211,22 @@ display {
 }
 "text update" {
 	object {
-		x="387"
-		y="55"
+		x="388"
+		y="326"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcAirTemp"
+		chan="$(top)hx2warmTempIn"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcAirTemp.SEVR.SEVR"
-		rulechan[1] = "$(top)fcAirTemp.SEVR.SEVR"
-		rulechan[2] = "$(top)fcAirTemp.SEVR.SEVR"
-		rulechan[3] = "$(top)fcAirTemp.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2warmTempIn.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2warmTempIn.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2warmTempIn.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2warmTempIn.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1565,7 +1240,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcAirTemp.SEVR"
+		clrargs="C=$(top)hx2warmTempIn.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1582,22 +1257,22 @@ display {
 }
 "text update" {
 	object {
-		x="385"
-		y="365"
+		x="388"
+		y="361"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcOutFlow"
+		chan="$(top)hx2warmTempOut"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[1] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[2] = "$(top)fcOutFlow.SEVR.SEVR"
-		rulechan[3] = "$(top)fcOutFlow.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2warmTempOut.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2warmTempOut.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2warmTempOut.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2warmTempOut.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1611,7 +1286,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcOutFlow.SEVR"
+		clrargs="C=$(top)hx2warmTempOut.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1628,22 +1303,22 @@ display {
 }
 "text update" {
 	object {
-		x="384"
-		y="450"
+		x="390"
+		y="442"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)heSupplyTemp"
+		chan="$(top)cp7InPres"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)heSupplyTemp.SEVR.SEVR"
-		rulechan[1] = "$(top)heSupplyTemp.SEVR.SEVR"
-		rulechan[2] = "$(top)heSupplyTemp.SEVR.SEVR"
-		rulechan[3] = "$(top)heSupplyTemp.SEVR.SEVR"
+		rulechan[0] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[1] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[2] = "$(top)cp7InPres.SEVR.SEVR"
+		rulechan[3] = "$(top)cp7InPres.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1657,7 +1332,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)heSupplyTemp.SEVR"
+		clrargs="C=$(top)cp7InPres.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1674,22 +1349,22 @@ display {
 }
 "text update" {
 	object {
-		x="384"
-		y="497"
+		x="390"
+		y="479"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)cp8InPres"
+		chan="$(top)hx2warmFlow"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)cp8InPres.SEVR.SEVR"
-		rulechan[1] = "$(top)cp8InPres.SEVR.SEVR"
-		rulechan[2] = "$(top)cp8InPres.SEVR.SEVR"
-		rulechan[3] = "$(top)cp8InPres.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2warmFlow.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2warmFlow.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2warmFlow.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2warmFlow.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1703,7 +1378,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)cp8InPres.SEVR"
+		clrargs="C=$(top)hx2warmFlow.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1720,22 +1395,22 @@ display {
 }
 "text update" {
 	object {
-		x="384"
-		y="406"
-		width="80"
-		height="24"
+		x="373"
+		y="516"
+		width="110"
+		height="22"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)fcRejPow"
+		chan="$(top)hx2warmRejPow"
 		clr="11"
 		bclr="6"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)fcRejPow.SEVR.SEVR"
-		rulechan[1] = "$(top)fcRejPow.SEVR.SEVR"
-		rulechan[2] = "$(top)fcRejPow.SEVR.SEVR"
-		rulechan[3] = "$(top)fcRejPow.SEVR.SEVR"
+		rulechan[0] = "$(top)hx2warmRejPow.SEVR.SEVR"
+		rulechan[1] = "$(top)hx2warmRejPow.SEVR.SEVR"
+		rulechan[2] = "$(top)hx2warmRejPow.SEVR.SEVR"
+		rulechan[3] = "$(top)hx2warmRejPow.SEVR.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1749,7 +1424,99 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)fcRejPow.SEVR"
+		clrargs="C=$(top)hx2warmRejPow.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="2"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="391"
+		y="547"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)cp7freq"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)cp7freq.SEVR.SEVR"
+		rulechan[1] = "$(top)cp7freq.SEVR.SEVR"
+		rulechan[2] = "$(top)cp7freq.SEVR.SEVR"
+		rulechan[3] = "$(top)cp7freq.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)cp7freq.SEVR"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="2"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="391"
+		y="579"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)cp7power"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)cp7power.SEVR.SEVR"
+		rulechan[1] = "$(top)cp7power.SEVR.SEVR"
+		rulechan[2] = "$(top)cp7power.SEVR.SEVR"
+		rulechan[3] = "$(top)cp7power.SEVR.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)cp7power.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"

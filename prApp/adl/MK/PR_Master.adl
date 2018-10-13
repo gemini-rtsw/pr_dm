@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="3"
-	nstr="145"
+	nstr="119"
 	ndynamic="2"
 	nplot="0"
-	nrd="9"
+	nrd="12"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="516"
-		height="331"
+		width="525"
+		height="402"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3946"
+	nwords_dspy="3640"
 	nwords_sta="156"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2362"
-	osta="2206"
-	odynamic="2362"
-	oplot="2494"
-	ord="2494"
-	oes="3934"
-	okd="3934"
-	opd="3946"
-	opo="3946"
+	odyng="1576"
+	osta="1420"
+	odynamic="1576"
+	oplot="1708"
+	ord="1708"
+	oes="3628"
+	okd="3628"
+	opd="3640"
+	opo="3640"
 	opc="68"
 	ostr="96"
-	ocmap="2206"
-	ocrules="2206"
+	ocmap="1420"
+	ocrules="1420"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,9 +49,9 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2557"
+	pixwid="2556"
 	pixht="1358"
-	mmwid="677"
+	mmwid="676"
 	mmht="359"
 }
 "<<basic attribute>>" {
@@ -117,8 +117,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="8"
-		y="228"
+		x="12"
+		y="301"
 		width="493"
 		height="88"
 		groupid="0"
@@ -134,8 +134,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="227"
+		x="13"
+		y="300"
 		width="492"
 		height="32"
 		groupid="0"
@@ -170,8 +170,8 @@ display {
 }
 "text" {
 	object {
-		x="66"
-		y="267"
+		x="70"
+		y="340"
 		width="71"
 		height="17"
 		groupid="0"
@@ -189,8 +189,8 @@ display {
 }
 "text" {
 	object {
-		x="9"
-		y="232"
+		x="13"
+		y="305"
 		width="490"
 		height="21"
 		groupid="0"
@@ -208,8 +208,8 @@ display {
 }
 "text" {
 	object {
-		x="40"
-		y="279"
+		x="44"
+		y="352"
 		width="105"
 		height="17"
 		groupid="0"
@@ -227,8 +227,8 @@ display {
 }
 "text" {
 	object {
-		x="297"
-		y="266"
+		x="301"
+		y="339"
 		width="94"
 		height="15"
 		groupid="0"
@@ -238,8 +238,8 @@ display {
 }
 "text" {
 	object {
-		x="316"
-		y="281"
+		x="320"
+		y="354"
 		width="75"
 		height="15"
 		groupid="0"
@@ -249,8 +249,8 @@ display {
 }
 "text update" {
 	object {
-		x="160"
-		y="269"
+		x="164"
+		y="342"
 		width="91"
 		height="27"
 		groupid="0"
@@ -295,8 +295,8 @@ display {
 }
 "text update" {
 	object {
-		x="405"
-		y="269"
+		x="409"
+		y="342"
 		width="69"
 		height="28"
 		groupid="0"
@@ -475,7 +475,7 @@ display {
 }
 "related display" {
 	object {
-		x="34"
+		x="33"
 		y="67"
 		width="204"
 		height="25"
@@ -609,7 +609,7 @@ display {
 }
 "related display" {
 	object {
-		x="34"
+		x="33"
 		y="104"
 		width="204"
 		height="25"
@@ -743,7 +743,7 @@ display {
 }
 "related display" {
 	object {
-		x="269"
+		x="268"
 		y="104"
 		width="204"
 		height="25"
@@ -877,7 +877,7 @@ display {
 }
 "related display" {
 	object {
-		x="269"
+		x="268"
 		y="67"
 		width="204"
 		height="25"
@@ -1011,8 +1011,8 @@ display {
 }
 "related display" {
 	object {
-		x="34"
-		y="143"
+		x="33"
+		y="142"
 		width="204"
 		height="25"
 		groupid="0"
@@ -1145,27 +1145,27 @@ display {
 }
 "related display" {
 	object {
-		x="268"
-		y="142"
+		x="267"
+		y="183"
 		width="204"
 		height="25"
 		groupid="0"
 	}
 	selfkill="off"
 	display[0] {
-		label="Pump Pressures"
-		name="pr_pumps.dl"
-		args="top=$(top)"
-	}
-	display[1] {
-		label="Fluid Cooler Sensors"
+		label="Fluid Cooler"
 		name="pr_fcsensors.dl"
 		args="top=$(top)"
 	}
-	display[2] {
-		label="CP1"
+	display[1] {
+		label="FCF1"
 		name="pr_vfd.dl"
-		args="top=$(top), desc=CirculationPump,  dev=cp1"
+		args="top=$(top), desc=FluidCoolerFan, dev=fcf1"
+	}
+	display[2] {
+		label="FCF2"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=FluidCoolerFan,  dev=fcf2"
 	}
 	display[3] {
 		label="CP6A"
@@ -1178,19 +1178,19 @@ display {
 		args="top=$(top), desc=CircultionPump, dev=cp6B"
 	}
 	display[5] {
-		label="CP8"
-		name="pr_vfd.dl"
-		args="top=$(top), desc=CirculationPump, dev=cp8"
+		label=""
+		name=""
+		args=""
 	}
 	display[6] {
-		label="FCF1"
-		name="pr_vfd.dl"
-		args="top=$(top), desc=FluidCoolerFan, dev=fcf1"
+		label=""
+		name=""
+		args=""
 	}
 	display[7] {
-		label="FCF2"
-		name="pr_vfd.dl"
-		args="top=$(top), desc=FluidCoolerFan, dev=fcf2"
+		label=""
+		name=""
+		args=""
 	}
 	display[8] {
 		label=""
@@ -1274,13 +1274,13 @@ display {
 	}
 	clr="0"
 	bclr="6"
-	menu_title="Circulation Pumps and FC Fans"
+	menu_title="Fluid Cooler"
 	decorate="outward"
 }
 "related display" {
 	object {
 		x="33"
-		y="184"
+		y="183"
 		width="204"
 		height="25"
 		groupid="0"
@@ -1413,8 +1413,8 @@ display {
 }
 "related display" {
 	object {
-		x="268"
-		y="186"
+		x="33"
+		y="224"
 		width="204"
 		height="25"
 		groupid="0"
@@ -1543,6 +1543,408 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="Water Status"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="267"
+		y="224"
+		width="203"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Heat Exchanger 2"
+		name="pr_hx2.dl"
+		args="top=$(top), dev=hx2"
+	}
+	display[1] {
+		label="Heat Exchanger 3"
+		name="pr_hx3.dl"
+		args="top=$(top), dev=hx3"
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Heat Exchangers"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="266"
+		y="264"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="FCF1"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=FluidCoolerFan, dev=fcf1"
+	}
+	display[1] {
+		label="FCF2"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=FluidCoolerFan, dev=fcf2"
+	}
+	display[2] {
+		label="CP1"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump,  dev=cp1"
+	}
+	display[3] {
+		label="CP3"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CiculationPump, dev=cp3"
+	}
+	display[4] {
+		label="CP4"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp4"
+	}
+	display[5] {
+		label="CP5"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp5"
+	}
+	display[6] {
+		label="CP6A"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp6A"
+	}
+	display[7] {
+		label="CP6B"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CircultionPump, dev=cp6B"
+	}
+	display[8] {
+		label="CP7"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp7"
+	}
+	display[9] {
+		label="CP8"
+		name="pr_vfd.dl"
+		args="top=$(top), desc=CirculationPump, dev=cp8"
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="VFDs"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="269"
+		y="142"
+		width="204"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Pump Pressures"
+		name="pr_pumps.dl"
+		args="top=$(top)"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Pump Pressures"
 	decorate="outward"
 }
 "kill display" {
