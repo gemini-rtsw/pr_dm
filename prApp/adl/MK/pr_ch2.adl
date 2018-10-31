@@ -1,0 +1,3513 @@
+file {
+	name="pr_ch2.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="58"
+	nstr="109"
+	ndynamic="27"
+	nplot="0"
+	nrd="5"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="544"
+		height="1087"
+	}
+	clr="0"
+	bclr="13"
+	nwords_dspy="5900"
+	nwords_sta="1388"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="3306"
+	osta="1918"
+	odynamic="3306"
+	oplot="5088"
+	ord="5088"
+	oes="5888"
+	okd="5888"
+	opd="5900"
+	opo="5900"
+	opc="68"
+	ostr="806"
+	ocmap="1918"
+	ocrules="1918"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+	pixwid="2559"
+	pixht="1360"
+	mmwid="677"
+	mmht="360"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="90"
+		width="530"
+		height="95"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="185"
+		y="90"
+		width="357"
+		height="25"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="272"
+		y="49"
+		width="270"
+		height="38"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="90"
+		width="360"
+		height="95"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="6"
+		width="78"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="92"
+		y="15"
+		width="364"
+		height="25"
+		groupid="0"
+	}
+	textix="Chiller 2"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="5"
+		width="529"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="28"
+		y="8"
+		width="105"
+		height="37"
+		groupid="0"
+	}
+	textix="PR"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="49"
+		width="359"
+		height="38"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="481"
+		y="131"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="161"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="16"
+		y="58"
+		width="294"
+		height="20"
+		groupid="0"
+	}
+	textix="Cooling setpoint"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="478"
+		y="61"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="128"
+		width="262"
+		height="20"
+		groupid="0"
+	}
+	textix="System Temperature IN"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="158"
+		width="271"
+		height="20"
+		groupid="0"
+	}
+	textix="System Temperature OUT"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="317"
+		y="131"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="315"
+		y="159"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-4"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="49"
+		y="93"
+		width="380"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Master module"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="188"
+		width="530"
+		height="198"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="188"
+		width="365"
+		height="199"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="482"
+		y="195"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="226"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="196"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Master Module Temp IN"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="196"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="226"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-2"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="258"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Low Pressure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="257"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-1"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="227"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Master Module Temp OUT"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="290"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Hi Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="321"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Low Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="353"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Hi Prssure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="289"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="322"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="355"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-4"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="257"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="288"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="319"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="351"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="391"
+		width="530"
+		height="228"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="185"
+		y="391"
+		width="357"
+		height="25"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="391"
+		width="365"
+		height="229"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="482"
+		y="428"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="459"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="429"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 1 - Temp IN"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="429"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="459"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-2"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="491"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Low Pressure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="490"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-1"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="69"
+		y="394"
+		width="412"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Slave module #1"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="460"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 1 - Temp OUT"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="523"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Hi Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="554"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Low Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="21"
+		y="586"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Hi Prssure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="320"
+		y="522"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="555"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="320"
+		y="588"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-4"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="490"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="521"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="552"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="482"
+		y="584"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="624"
+		width="530"
+		height="228"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="184"
+		y="624"
+		width="357"
+		height="25"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="624"
+		width="365"
+		height="229"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="481"
+		y="661"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="692"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="20"
+		y="662"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 2 - Temp IN"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="319"
+		y="662"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="319"
+		y="692"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-2"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="20"
+		y="724"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Low Pressure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="319"
+		y="723"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-1"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="68"
+		y="627"
+		width="412"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Slave module #2"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="20"
+		y="693"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 2 - Temp OUT"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="20"
+		y="756"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Hi Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="20"
+		y="787"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Low Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="20"
+		y="819"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Hi Prssure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="319"
+		y="755"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="319"
+		y="788"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="319"
+		y="821"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-4"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="723"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="754"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="785"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="481"
+		y="817"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="856"
+		width="530"
+		height="228"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="182"
+		y="856"
+		width="357"
+		height="25"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="856"
+		width="365"
+		height="229"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="479"
+		y="893"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="479"
+		y="924"
+		width="58"
+		height="15"
+		groupid="0"
+	}
+	textix="[degC]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="894"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 3 - Temp IN"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="317"
+		y="894"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="317"
+		y="924"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="NTC-2"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="956"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Low Pressure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="317"
+		y="955"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-1"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="66"
+		y="859"
+		width="412"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Slave module #3"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="925"
+		width="281"
+		height="20"
+		groupid="0"
+	}
+	textix="Slave 3 - Temp OUT"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="18"
+		y="988"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C1 Hi Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="18"
+		y="1019"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Low Pressure Circuit"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="18"
+		y="1051"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="C2 Hi Prssure Circuit"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="317"
+		y="987"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="317"
+		y="1020"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="317"
+		y="1053"
+		width="58"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-4"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="479"
+		y="955"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="479"
+		y="986"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="479"
+		y="1017"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="479"
+		y="1049"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text update" {
+	object {
+		x="383"
+		y="126"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sysTempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sysTempIn.SEVR"
+		rulechan[1] = "$(top)sysTempIn.SEVR"
+		rulechan[2] = "$(top)sysTempIn.SEVR"
+		rulechan[3] = "$(top)sysTempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sysTempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="156"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sysTempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sysTempOut.SEVR"
+		rulechan[1] = "$(top)sysTempOut.SEVR"
+		rulechan[2] = "$(top)sysTempOut.SEVR"
+		rulechan[3] = "$(top)sysTempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sysTempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="387"
+		y="56"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)coolSp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)coolSp.SEVR"
+		rulechan[1] = "$(top)coolSp.SEVR"
+		rulechan[2] = "$(top)coolSp.SEVR"
+		rulechan[3] = "$(top)coolSp.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)coolSp"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="194"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maTempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maTempIn.SEVR"
+		rulechan[1] = "$(top)maTempIn.SEVR"
+		rulechan[2] = "$(top)maTempIn.SEVR"
+		rulechan[3] = "$(top)maTempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maTempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="226"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maTempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maTempOut.SEVR"
+		rulechan[1] = "$(top)maTempOut.SEVR"
+		rulechan[2] = "$(top)maTempOut.SEVR"
+		rulechan[3] = "$(top)maTempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maTempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="257"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maC1low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maC1low.SEVR"
+		rulechan[1] = "$(top)maC1low.SEVR"
+		rulechan[2] = "$(top)maC1low.SEVR"
+		rulechan[3] = "$(top)maC1low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maC1low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="289"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maC1high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maC1high.SEVR"
+		rulechan[1] = "$(top)maC1high.SEVR"
+		rulechan[2] = "$(top)maC1high.SEVR"
+		rulechan[3] = "$(top)maC1high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maC1high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="318"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maC2low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maC2low.SEVR"
+		rulechan[1] = "$(top)maC2low.SEVR"
+		rulechan[2] = "$(top)maC2low.SEVR"
+		rulechan[3] = "$(top)maC2low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maC2low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="350"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maC2high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)maC2high.SEVR"
+		rulechan[1] = "$(top)maC2high.SEVR"
+		rulechan[2] = "$(top)maC2high.SEVR"
+		rulechan[3] = "$(top)maC2high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)maC2high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="427"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm1TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1TempIn.SEVR"
+		rulechan[1] = "$(top)sm1TempIn.SEVR"
+		rulechan[2] = "$(top)sm1TempIn.SEVR"
+		rulechan[3] = "$(top)sm1TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="459"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm1TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1TempOut.SEVR"
+		rulechan[1] = "$(top)sm1TempOut.SEVR"
+		rulechan[2] = "$(top)sm1TempOut.SEVR"
+		rulechan[3] = "$(top)sm1TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="490"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm1C1low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1C1low.SEVR"
+		rulechan[1] = "$(top)sm1C1low.SEVR"
+		rulechan[2] = "$(top)sm1C1low.SEVR"
+		rulechan[3] = "$(top)sm1C1low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1C1low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="522"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm1C1high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1C1high.SEVR"
+		rulechan[1] = "$(top)sm1C1high.SEVR"
+		rulechan[2] = "$(top)sm1C1high.SEVR"
+		rulechan[3] = "$(top)sm1C1high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1C1high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="551"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm1C2low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1C2low.SEVR"
+		rulechan[1] = "$(top)sm1C2low.SEVR"
+		rulechan[2] = "$(top)sm1C2low.SEVR"
+		rulechan[3] = "$(top)sm1C2low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1C2low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="383"
+		y="583"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)maC2high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1C2high.SEVR"
+		rulechan[1] = "$(top)sm1C2high.SEVR"
+		rulechan[2] = "$(top)sm1C2high.SEVR"
+		rulechan[3] = "$(top)sm1C2high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1C2high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="660"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2TempIn.SEVR"
+		rulechan[1] = "$(top)sm2TempIn.SEVR"
+		rulechan[2] = "$(top)sm2TempIn.SEVR"
+		rulechan[3] = "$(top)sm2TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="692"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2TempOut.SEVR"
+		rulechan[1] = "$(top)sm2TempOut.SEVR"
+		rulechan[2] = "$(top)sm2TempOut.SEVR"
+		rulechan[3] = "$(top)sm2TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="723"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2C1low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2C1low.SEVR"
+		rulechan[1] = "$(top)sm2C1low.SEVR"
+		rulechan[2] = "$(top)sm2C1low.SEVR"
+		rulechan[3] = "$(top)sm2C1low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2C1low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="755"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2C1high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2C1high.SEVR"
+		rulechan[1] = "$(top)sm2C1high.SEVR"
+		rulechan[2] = "$(top)sm2C1high.SEVR"
+		rulechan[3] = "$(top)sm2C1high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2C1high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="784"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2C2low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2C2low.SEVR"
+		rulechan[1] = "$(top)sm2C2low.SEVR"
+		rulechan[2] = "$(top)sm2C2low.SEVR"
+		rulechan[3] = "$(top)sm2C2low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2C2low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="382"
+		y="816"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm2C2high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2C2high.SEVR"
+		rulechan[1] = "$(top)sm2C2high.SEVR"
+		rulechan[2] = "$(top)sm2C2high.SEVR"
+		rulechan[3] = "$(top)sm2C2high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2C2high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="892"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3TempIn.SEVR"
+		rulechan[1] = "$(top)sm3TempIn.SEVR"
+		rulechan[2] = "$(top)sm3TempIn.SEVR"
+		rulechan[3] = "$(top)sm3TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="924"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3TempOut.SEVR"
+		rulechan[1] = "$(top)sm3TempOut.SEVR"
+		rulechan[2] = "$(top)sm3TempOut.SEVR"
+		rulechan[3] = "$(top)sm3TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="955"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3C1low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3C1low.SEVR"
+		rulechan[1] = "$(top)sm3C1low.SEVR"
+		rulechan[2] = "$(top)sm3C1low.SEVR"
+		rulechan[3] = "$(top)sm3C1low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3C1low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="987"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3C1high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3C1high.SEVR"
+		rulechan[1] = "$(top)sm3C1high.SEVR"
+		rulechan[2] = "$(top)sm3C1high.SEVR"
+		rulechan[3] = "$(top)sm3C1high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3C1high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="1016"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3C2low"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3C2low.SEVR"
+		rulechan[1] = "$(top)sm3C2low.SEVR"
+		rulechan[2] = "$(top)sm3C2low.SEVR"
+		rulechan[3] = "$(top)sm3C2low.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3C2low"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="380"
+		y="1048"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)sm3C2high"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3C2high.SEVR"
+		rulechan[1] = "$(top)sm3C2high.SEVR"
+		rulechan[2] = "$(top)sm3C2high.SEVR"
+		rulechan[3] = "$(top)sm3C2high.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3C2high"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="465"
+		y="91"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_slave_sad.dl"
+		args="top=$(top), dev=ma"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="465"
+		y="392"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_slave_sad.dl"
+		args="top=$(top), dev=sm1"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="464"
+		y="625"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_slave_sad.dl"
+		args="top=$(top), dev=sm2"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="462"
+		y="858"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_slave_sad.dl"
+		args="top=$(top), dev=sm3"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="454"
+		y="8"
+		width="82"
+		height="34"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}
