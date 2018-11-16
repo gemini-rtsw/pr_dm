@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="58"
-	nstr="109"
-	ndynamic="27"
+	npc="94"
+	nstr="152"
+	ndynamic="42"
 	nplot="0"
 	nrd="5"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="544"
-		height="1087"
+		width="1082"
+		height="733"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="5900"
-	nwords_sta="1388"
+	nwords_dspy="8234"
+	nwords_sta="1744"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="3306"
-	osta="1918"
-	odynamic="3306"
-	oplot="5088"
-	ord="5088"
-	oes="5888"
-	okd="5888"
-	opd="5900"
-	opo="5900"
+	odyng="4650"
+	osta="2906"
+	odynamic="4650"
+	oplot="7422"
+	ord="7422"
+	oes="8222"
+	okd="8222"
+	opd="8234"
+	opo="8234"
 	opc="68"
-	ostr="806"
-	ocmap="1918"
-	ocrules="1918"
+	ostr="1282"
+	ocmap="2906"
+	ocrules="2906"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -64,42 +64,26 @@ display {
 }
 "rectangle" {
 	object {
-		x="12"
-		y="90"
+		x="547"
+		y="58"
 		width="530"
-		height="95"
+		height="141"
 		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
 	}
 }
 "rectangle" {
 	object {
-		x="185"
-		y="90"
-		width="357"
-		height="25"
+		x="13"
+		y="135"
+		width="530"
+		height="63"
 		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="solid"
-		width="2"
 	}
 }
 "rectangle" {
 	object {
 		x="272"
-		y="49"
+		y="94"
 		width="270"
 		height="38"
 		groupid="0"
@@ -115,10 +99,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="10"
-		y="90"
+		x="11"
+		y="135"
 		width="360"
-		height="95"
+		height="63"
 		groupid="0"
 	}
 }
@@ -143,7 +127,7 @@ display {
 	object {
 		x="92"
 		y="15"
-		width="364"
+		width="890"
 		height="25"
 		groupid="0"
 	}
@@ -162,7 +146,7 @@ display {
 	object {
 		x="12"
 		y="5"
-		width="529"
+		width="1062"
 		height="40"
 		groupid="0"
 	}
@@ -197,7 +181,7 @@ display {
 "rectangle" {
 	object {
 		x="12"
-		y="49"
+		y="94"
 		width="359"
 		height="38"
 		groupid="0"
@@ -213,8 +197,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="131"
+		x="480"
+		y="143"
 		width="58"
 		height="15"
 		groupid="0"
@@ -224,8 +208,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="161"
+		x="480"
+		y="173"
 		width="58"
 		height="15"
 		groupid="0"
@@ -244,7 +228,7 @@ display {
 "text" {
 	object {
 		x="16"
-		y="58"
+		y="103"
 		width="294"
 		height="20"
 		groupid="0"
@@ -262,8 +246,8 @@ display {
 }
 "text" {
 	object {
-		x="478"
-		y="61"
+		x="477"
+		y="106"
 		width="58"
 		height="15"
 		groupid="0"
@@ -281,8 +265,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="128"
+		x="20"
+		y="140"
 		width="262"
 		height="20"
 		groupid="0"
@@ -292,8 +276,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="158"
+		x="20"
+		y="170"
 		width="271"
 		height="20"
 		groupid="0"
@@ -311,8 +295,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="131"
+		x="316"
+		y="143"
 		width="58"
 		height="17"
 		groupid="0"
@@ -322,32 +306,13 @@ display {
 }
 "text" {
 	object {
-		x="315"
-		y="159"
+		x="314"
+		y="171"
 		width="58"
 		height="17"
 		groupid="0"
 	}
 	textix="NTC-4"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="12"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="49"
-		y="93"
-		width="380"
-		height="20"
-		groupid="0"
-	}
-	textix="Internal Sensors Master module"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -361,9 +326,9 @@ display {
 "rectangle" {
 	object {
 		x="12"
-		y="188"
+		y="236"
 		width="530"
-		height="198"
+		height="228"
 		groupid="0"
 	}
 }
@@ -378,9 +343,9 @@ display {
 "rectangle" {
 	object {
 		x="10"
-		y="188"
+		y="202"
 		width="365"
-		height="199"
+		height="263"
 		groupid="0"
 	}
 }
@@ -395,7 +360,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="195"
+		y="273"
 		width="58"
 		height="15"
 		groupid="0"
@@ -406,7 +371,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="226"
+		y="304"
 		width="58"
 		height="15"
 		groupid="0"
@@ -425,7 +390,7 @@ display {
 "text" {
 	object {
 		x="21"
-		y="196"
+		y="274"
 		width="281"
 		height="20"
 		groupid="0"
@@ -444,7 +409,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="196"
+		y="274"
 		width="58"
 		height="17"
 		groupid="0"
@@ -455,7 +420,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="226"
+		y="304"
 		width="58"
 		height="17"
 		groupid="0"
@@ -474,7 +439,7 @@ display {
 "text" {
 	object {
 		x="21"
-		y="258"
+		y="336"
 		width="301"
 		height="20"
 		groupid="0"
@@ -493,7 +458,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="257"
+		y="335"
 		width="58"
 		height="17"
 		groupid="0"
@@ -512,7 +477,7 @@ display {
 "text" {
 	object {
 		x="21"
-		y="227"
+		y="305"
 		width="281"
 		height="20"
 		groupid="0"
@@ -523,7 +488,7 @@ display {
 "text" {
 	object {
 		x="21"
-		y="290"
+		y="368"
 		width="301"
 		height="20"
 		groupid="0"
@@ -534,7 +499,7 @@ display {
 "text" {
 	object {
 		x="21"
-		y="321"
+		y="399"
 		width="301"
 		height="20"
 		groupid="0"
@@ -545,12 +510,12 @@ display {
 "text" {
 	object {
 		x="21"
-		y="353"
+		y="431"
 		width="301"
 		height="20"
 		groupid="0"
 	}
-	textix="C2 Hi Prssure Circuit"
+	textix="C2 Hi Pressure Circuit"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -564,7 +529,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="289"
+		y="367"
 		width="58"
 		height="17"
 		groupid="0"
@@ -575,7 +540,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="322"
+		y="400"
 		width="64"
 		height="17"
 		groupid="0"
@@ -586,7 +551,7 @@ display {
 "text" {
 	object {
 		x="320"
-		y="355"
+		y="433"
 		width="58"
 		height="17"
 		groupid="0"
@@ -597,7 +562,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="257"
+		y="335"
 		width="52"
 		height="15"
 		groupid="0"
@@ -608,7 +573,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="288"
+		y="366"
 		width="52"
 		height="15"
 		groupid="0"
@@ -619,7 +584,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="319"
+		y="397"
 		width="52"
 		height="15"
 		groupid="0"
@@ -630,7 +595,7 @@ display {
 "text" {
 	object {
 		x="482"
-		y="351"
+		y="429"
 		width="52"
 		height="15"
 		groupid="0"
@@ -648,8 +613,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="12"
-		y="391"
+		x="548"
+		y="236"
 		width="530"
 		height="228"
 		groupid="0"
@@ -665,19 +630,19 @@ display {
 }
 "rectangle" {
 	object {
-		x="185"
-		y="391"
+		x="721"
+		y="202"
 		width="357"
-		height="25"
+		height="59"
 		groupid="0"
 	}
 }
 "rectangle" {
 	object {
-		x="10"
-		y="391"
+		x="546"
+		y="202"
 		width="365"
-		height="229"
+		height="263"
 		groupid="0"
 	}
 }
@@ -691,8 +656,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="428"
+		x="1018"
+		y="273"
 		width="58"
 		height="15"
 		groupid="0"
@@ -702,8 +667,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="459"
+		x="1018"
+		y="304"
 		width="58"
 		height="15"
 		groupid="0"
@@ -721,8 +686,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="429"
+		x="557"
+		y="274"
 		width="281"
 		height="20"
 		groupid="0"
@@ -740,8 +705,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="429"
+		x="856"
+		y="274"
 		width="58"
 		height="17"
 		groupid="0"
@@ -751,8 +716,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="459"
+		x="856"
+		y="304"
 		width="58"
 		height="17"
 		groupid="0"
@@ -770,8 +735,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="491"
+		x="557"
+		y="336"
 		width="301"
 		height="20"
 		groupid="0"
@@ -789,8 +754,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="490"
+		x="856"
+		y="335"
 		width="58"
 		height="17"
 		groupid="0"
@@ -808,14 +773,14 @@ display {
 }
 "text" {
 	object {
-		x="69"
-		y="394"
-		width="412"
+		x="545"
+		y="209"
+		width="447"
 		height="20"
 		groupid="0"
 	}
 	textix="Internal Sensors Slave module #1"
-	align="horiz. left"
+	align="horiz. centered"
 }
 "<<basic attribute>>" {
 	attr {
@@ -827,8 +792,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="460"
+		x="557"
+		y="305"
 		width="281"
 		height="20"
 		groupid="0"
@@ -838,8 +803,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="523"
+		x="557"
+		y="368"
 		width="301"
 		height="20"
 		groupid="0"
@@ -849,8 +814,8 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="554"
+		x="557"
+		y="399"
 		width="301"
 		height="20"
 		groupid="0"
@@ -860,13 +825,13 @@ display {
 }
 "text" {
 	object {
-		x="21"
-		y="586"
+		x="557"
+		y="431"
 		width="301"
 		height="20"
 		groupid="0"
 	}
-	textix="C2 Hi Prssure Circuit"
+	textix="C2 Hi Pressure Circuit"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -879,8 +844,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="522"
+		x="856"
+		y="367"
 		width="58"
 		height="17"
 		groupid="0"
@@ -890,8 +855,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="555"
+		x="856"
+		y="400"
 		width="64"
 		height="17"
 		groupid="0"
@@ -901,8 +866,8 @@ display {
 }
 "text" {
 	object {
-		x="320"
-		y="588"
+		x="856"
+		y="433"
 		width="58"
 		height="17"
 		groupid="0"
@@ -912,8 +877,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="490"
+		x="1018"
+		y="335"
 		width="52"
 		height="15"
 		groupid="0"
@@ -923,8 +888,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="521"
+		x="1018"
+		y="366"
 		width="52"
 		height="15"
 		groupid="0"
@@ -934,8 +899,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="552"
+		x="1018"
+		y="397"
 		width="52"
 		height="15"
 		groupid="0"
@@ -945,8 +910,8 @@ display {
 }
 "text" {
 	object {
-		x="482"
-		y="584"
+		x="1018"
+		y="429"
 		width="52"
 		height="15"
 		groupid="0"
@@ -964,8 +929,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="624"
+		x="13"
+		y="502"
 		width="530"
 		height="228"
 		groupid="0"
@@ -981,19 +946,19 @@ display {
 }
 "rectangle" {
 	object {
-		x="184"
-		y="624"
+		x="186"
+		y="468"
 		width="357"
-		height="25"
+		height="58"
 		groupid="0"
 	}
 }
 "rectangle" {
 	object {
-		x="9"
-		y="624"
+		x="11"
+		y="468"
 		width="365"
-		height="229"
+		height="263"
 		groupid="0"
 	}
 }
@@ -1007,8 +972,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="661"
+		x="483"
+		y="539"
 		width="58"
 		height="15"
 		groupid="0"
@@ -1018,8 +983,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="692"
+		x="483"
+		y="570"
 		width="58"
 		height="15"
 		groupid="0"
@@ -1037,8 +1002,8 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="662"
+		x="22"
+		y="540"
 		width="281"
 		height="20"
 		groupid="0"
@@ -1056,8 +1021,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="662"
+		x="321"
+		y="540"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1067,8 +1032,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="692"
+		x="321"
+		y="570"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1086,8 +1051,8 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="724"
+		x="22"
+		y="602"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1105,8 +1070,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="723"
+		x="321"
+		y="601"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1124,14 +1089,14 @@ display {
 }
 "text" {
 	object {
-		x="68"
-		y="627"
-		width="412"
+		x="11"
+		y="478"
+		width="447"
 		height="20"
 		groupid="0"
 	}
 	textix="Internal Sensors Slave module #2"
-	align="horiz. left"
+	align="horiz. centered"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1143,8 +1108,8 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="693"
+		x="22"
+		y="571"
 		width="281"
 		height="20"
 		groupid="0"
@@ -1154,8 +1119,8 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="756"
+		x="22"
+		y="634"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1165,8 +1130,8 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="787"
+		x="22"
+		y="665"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1176,13 +1141,13 @@ display {
 }
 "text" {
 	object {
-		x="20"
-		y="819"
+		x="22"
+		y="697"
 		width="301"
 		height="20"
 		groupid="0"
 	}
-	textix="C2 Hi Prssure Circuit"
+	textix="C2 Hi Pressure Circuit"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -1195,8 +1160,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="755"
+		x="321"
+		y="633"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1206,8 +1171,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="788"
+		x="321"
+		y="666"
 		width="64"
 		height="17"
 		groupid="0"
@@ -1217,8 +1182,8 @@ display {
 }
 "text" {
 	object {
-		x="319"
-		y="821"
+		x="321"
+		y="699"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1228,8 +1193,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="723"
+		x="483"
+		y="601"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1239,8 +1204,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="754"
+		x="483"
+		y="632"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1250,8 +1215,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="785"
+		x="483"
+		y="663"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1261,8 +1226,8 @@ display {
 }
 "text" {
 	object {
-		x="481"
-		y="817"
+		x="483"
+		y="695"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1280,8 +1245,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="856"
+		x="548"
+		y="502"
 		width="530"
 		height="228"
 		groupid="0"
@@ -1297,19 +1262,19 @@ display {
 }
 "rectangle" {
 	object {
-		x="182"
-		y="856"
+		x="721"
+		y="468"
 		width="357"
-		height="25"
+		height="59"
 		groupid="0"
 	}
 }
 "rectangle" {
 	object {
-		x="7"
-		y="856"
+		x="546"
+		y="468"
 		width="365"
-		height="229"
+		height="263"
 		groupid="0"
 	}
 }
@@ -1323,8 +1288,8 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="893"
+		x="1018"
+		y="539"
 		width="58"
 		height="15"
 		groupid="0"
@@ -1334,8 +1299,8 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="924"
+		x="1018"
+		y="570"
 		width="58"
 		height="15"
 		groupid="0"
@@ -1353,8 +1318,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="894"
+		x="557"
+		y="540"
 		width="281"
 		height="20"
 		groupid="0"
@@ -1372,8 +1337,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="894"
+		x="856"
+		y="540"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1383,8 +1348,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="924"
+		x="856"
+		y="570"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1402,8 +1367,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="956"
+		x="557"
+		y="602"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1421,8 +1386,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="955"
+		x="856"
+		y="601"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1440,14 +1405,14 @@ display {
 }
 "text" {
 	object {
-		x="66"
-		y="859"
-		width="412"
+		x="548"
+		y="476"
+		width="448"
 		height="20"
 		groupid="0"
 	}
 	textix="Internal Sensors Slave module #3"
-	align="horiz. left"
+	align="horiz. centered"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1459,8 +1424,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="925"
+		x="557"
+		y="571"
 		width="281"
 		height="20"
 		groupid="0"
@@ -1470,8 +1435,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="988"
+		x="557"
+		y="634"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1481,8 +1446,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="1019"
+		x="557"
+		y="665"
 		width="301"
 		height="20"
 		groupid="0"
@@ -1492,13 +1457,13 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="1051"
+		x="557"
+		y="697"
 		width="301"
 		height="20"
 		groupid="0"
 	}
-	textix="C2 Hi Prssure Circuit"
+	textix="C2 Hi Pressure Circuit"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -1511,8 +1476,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="987"
+		x="856"
+		y="633"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1522,8 +1487,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="1020"
+		x="856"
+		y="666"
 		width="64"
 		height="17"
 		groupid="0"
@@ -1533,8 +1498,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="1053"
+		x="856"
+		y="699"
 		width="58"
 		height="17"
 		groupid="0"
@@ -1544,8 +1509,8 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="955"
+		x="1018"
+		y="601"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1555,8 +1520,8 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="986"
+		x="1018"
+		y="632"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1566,8 +1531,8 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="1017"
+		x="1018"
+		y="663"
 		width="52"
 		height="15"
 		groupid="0"
@@ -1577,19 +1542,426 @@ display {
 }
 "text" {
 	object {
-		x="479"
-		y="1049"
+		x="1018"
+		y="695"
 		width="52"
 		height="15"
 		groupid="0"
 	}
 	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="185"
+		y="202"
+		width="357"
+		height="60"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="10"
+		y="209"
+		width="446"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Master module"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="547"
+		y="52"
+		width="365"
+		height="147"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="721"
+		y="52"
+		width="355"
+		height="59"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="567"
+		y="52"
+		width="424"
+		height="20"
+		groupid="0"
+	}
+	textix="Internal Sensors Tank_Pumps module"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="51"
+		y="237"
+		width="50"
+		height="24"
+		groupid="0"
+	}
+	textix="C1:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="202"
+		y="237"
+		width="45"
+		height="24"
+		groupid="0"
+	}
+	textix="C2:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="596"
+		y="238"
+		width="50"
+		height="24"
+		groupid="0"
+	}
+	textix="C1:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="747"
+		y="238"
+		width="45"
+		height="24"
+		groupid="0"
+	}
+	textix="C2:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="58"
+		y="506"
+		width="50"
+		height="24"
+		groupid="0"
+	}
+	textix="C1:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="209"
+		y="506"
+		width="45"
+		height="24"
+		groupid="0"
+	}
+	textix="C2:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="599"
+		y="503"
+		width="50"
+		height="24"
+		groupid="0"
+	}
+	textix="C1:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="750"
+		y="503"
+		width="45"
+		height="24"
+		groupid="0"
+	}
+	textix="C2:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="550"
+		y="78"
+		width="50"
+		height="24"
+		groupid="0"
+	}
+	textix="P1:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="778"
+		y="81"
+		width="45"
+		height="24"
+		groupid="0"
+	}
+	textix="P2:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="667"
+		y="70"
+		width="88"
+		height="16"
+		groupid="0"
+	}
+	textix="runtime:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="888"
+		y="69"
+		width="88"
+		height="16"
+		groupid="0"
+	}
+	textix="runtime:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="553"
+		y="115"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="Pumps suction pressure"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="861"
+		y="117"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-3"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1024"
+		y="118"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="553"
+		y="144"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="Pumps discharge pressure"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="861"
+		y="146"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1024"
+		y="147"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="554"
+		y="172"
+		width="301"
+		height="20"
+		groupid="0"
+	}
+	textix="Pumps module pressure out"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="862"
+		y="174"
+		width="64"
+		height="17"
+		groupid="0"
+	}
+	textix="PT-2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1025"
+		y="175"
+		width="52"
+		height="15"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="53"
+		width="529"
+		height="38"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="736"
+		y="87"
+		width="40"
+		height="16"
+		groupid="0"
+	}
+	textix="hrs"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="964"
+		y="86"
+		width="40"
+		height="16"
+		groupid="0"
+	}
+	textix="hrs"
 	align="horiz. left"
 }
 "text update" {
 	object {
-		x="383"
-		y="126"
+		x="382"
+		y="138"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1634,8 +2006,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="156"
+		x="382"
+		y="168"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1680,8 +2052,8 @@ display {
 }
 "text update" {
 	object {
-		x="387"
-		y="56"
+		x="381"
+		y="102"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1727,7 +2099,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="194"
+		y="272"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1773,7 +2145,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="226"
+		y="304"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1819,7 +2191,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="257"
+		y="335"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1865,7 +2237,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="289"
+		y="367"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1911,7 +2283,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="318"
+		y="396"
 		width="80"
 		height="24"
 		groupid="0"
@@ -1957,7 +2329,7 @@ display {
 "text update" {
 	object {
 		x="383"
-		y="350"
+		y="428"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2002,8 +2374,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="427"
+		x="919"
+		y="272"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2048,8 +2420,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="459"
+		x="919"
+		y="304"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2094,8 +2466,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="490"
+		x="919"
+		y="335"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2140,8 +2512,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="522"
+		x="919"
+		y="367"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2186,8 +2558,8 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="551"
+		x="919"
+		y="396"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2232,14 +2604,14 @@ display {
 }
 "text update" {
 	object {
-		x="383"
-		y="583"
+		x="919"
+		y="428"
 		width="80"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)maC2high"
+		chan="$(top)sm1C2high"
 		clr="11"
 		bclr="6"
 		label="none"
@@ -2278,8 +2650,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="660"
+		x="384"
+		y="538"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2324,8 +2696,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="692"
+		x="384"
+		y="570"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2370,8 +2742,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="723"
+		x="384"
+		y="601"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2416,8 +2788,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="755"
+		x="384"
+		y="633"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2462,8 +2834,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="784"
+		x="384"
+		y="662"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2508,8 +2880,8 @@ display {
 }
 "text update" {
 	object {
-		x="382"
-		y="816"
+		x="384"
+		y="694"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2554,8 +2926,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="892"
+		x="919"
+		y="538"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2600,8 +2972,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="924"
+		x="919"
+		y="570"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2646,8 +3018,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="955"
+		x="919"
+		y="601"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2692,8 +3064,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="987"
+		x="919"
+		y="633"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2738,8 +3110,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="1016"
+		x="919"
+		y="662"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2784,8 +3156,8 @@ display {
 }
 "text update" {
 	object {
-		x="380"
-		y="1048"
+		x="919"
+		y="694"
 		width="80"
 		height="24"
 		groupid="0"
@@ -2828,278 +3200,700 @@ display {
 	align="horiz. centered"
 	format="decimal"
 }
-"related display" {
+"text update" {
 	object {
-		x="1348"
-		y="600"
-		width="194"
-		height="80"
+		x="111"
+		y="237"
+		width="80"
+		height="24"
 		groupid="0"
 	}
-	selfkill="off"
-	display[0] {
-		label="TEST & CONFIG"
-		name="TCS_TestConfig.dl"
-		args="T=ec,B=testblock"
+	monitor {
+		chan="$(top)mac1stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)mac1stat.SEVR"
+		rulechan[1] = "$(top)mac1stat.SEVR"
+		rulechan[2] = "$(top)mac1stat.SEVR"
+		rulechan[3] = "$(top)mac1stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)mac1stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[1] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="250"
+		y="237"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[2] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)mac2stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)mac2stat.SEVR"
+		rulechan[1] = "$(top)mac2stat.SEVR"
+		rulechan[2] = "$(top)mac2stat.SEVR"
+		rulechan[3] = "$(top)mac2stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)mac2stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[3] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="656"
+		y="238"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[4] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm1c1stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1c1stat.SEVR"
+		rulechan[1] = "$(top)sm1c1stat.SEVR"
+		rulechan[2] = "$(top)sm1c1stat.SEVR"
+		rulechan[3] = "$(top)sm1c1stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1c1stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[5] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="795"
+		y="238"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[6] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm1c2stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm1c2stat.SEVR"
+		rulechan[1] = "$(top)sm1c2stat.SEVR"
+		rulechan[2] = "$(top)sm1c2stat.SEVR"
+		rulechan[3] = "$(top)sm1c2stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm1c2stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[7] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="118"
+		y="506"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[8] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm2c1stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2c1stat.SEVR"
+		rulechan[1] = "$(top)sm2c1stat.SEVR"
+		rulechan[2] = "$(top)sm2c1stat.SEVR"
+		rulechan[3] = "$(top)sm2c1stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2c1stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[9] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="257"
+		y="506"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[10] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm2c2stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm2c2stat.SEVR"
+		rulechan[1] = "$(top)sm2c2stat.SEVR"
+		rulechan[2] = "$(top)sm2c2stat.SEVR"
+		rulechan[3] = "$(top)sm2c2stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm2c2stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[11] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="659"
+		y="503"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[12] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm3c1stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3c1stat.SEVR"
+		rulechan[1] = "$(top)sm3c1stat.SEVR"
+		rulechan[2] = "$(top)sm3c1stat.SEVR"
+		rulechan[3] = "$(top)sm3c1stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3c1stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[13] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="798"
+		y="503"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[14] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)sm3c2stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)sm3c2stat.SEVR"
+		rulechan[1] = "$(top)sm3c2stat.SEVR"
+		rulechan[2] = "$(top)sm3c2stat.SEVR"
+		rulechan[3] = "$(top)sm3c2stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)sm3c2stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[15] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="594"
+		y="79"
+		width="59"
+		height="23"
+		groupid="0"
 	}
-	display[16] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)p1stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)p1stat.SEVR"
+		rulechan[1] = "$(top)p1stat.SEVR"
+		rulechan[2] = "$(top)p1stat.SEVR"
+		rulechan[3] = "$(top)p1stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)p1stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[17] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="820"
+		y="83"
+		width="59"
+		height="23"
+		groupid="0"
 	}
-	display[18] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)p2stat"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)p2stat.SEVR"
+		rulechan[1] = "$(top)p2stat.SEVR"
+		rulechan[2] = "$(top)p2stat.SEVR"
+		rulechan[3] = "$(top)p2stat.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)p2stat"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[19] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="664"
+		y="85"
+		width="73"
+		height="20"
+		groupid="0"
 	}
-	display[20] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)p1runtime"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)p1runtime.SEVR"
+		rulechan[1] = "$(top)p1runtime.SEVR"
+		rulechan[2] = "$(top)p1runtime.SEVR"
+		rulechan[3] = "$(top)p1runtime.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)p1runtime"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[21] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="889"
+		y="85"
+		width="73"
+		height="19"
+		groupid="0"
 	}
-	display[22] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)p2runtime"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)p1runtime.SEVR"
+		rulechan[1] = "$(top)p1runtime.SEVR"
+		rulechan[2] = "$(top)p1runtime.SEVR"
+		rulechan[3] = "$(top)p1runtime.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)p1runtime"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[23] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="917"
+		y="113"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	clr="0"
-	bclr="6"
-	menu_title="TEST & CONFIG"
-	decorate="outward"
+	monitor {
+		chan="$(top)pumpSuctPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)pumpSuctPres.SEVR"
+		rulechan[1] = "$(top)pumpSuctPres.SEVR"
+		rulechan[2] = "$(top)pumpSuctPres.SEVR"
+		rulechan[3] = "$(top)pumpSuctPres.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)pumpSuctPres"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="917"
+		y="142"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)pumpDisPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)pumpDisPres.SEVR"
+		rulechan[1] = "$(top)pumpDisPres.SEVR"
+		rulechan[2] = "$(top)pumpDisPres.SEVR"
+		rulechan[3] = "$(top)pumpDisPres.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)pumpDisPres"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="918"
+		y="170"
+		width="80"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)pumpModPresOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)pumpModPresOut.SEVR"
+		rulechan[1] = "$(top)pumpModPresOut.SEVR"
+		rulechan[2] = "$(top)pumpModPresOut.SEVR"
+		rulechan[3] = "$(top)pumpModPresOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)pumpModPresOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
 }
 "related display" {
 	object {
-		x="465"
-		y="91"
-		width="75"
-		height="22"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Status and Alarms"
-		name="pr_ch2_slave_sad.dl"
-		args="top=$(top), dev=ma"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="SAD"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="465"
-		y="392"
+		x="991"
+		y="221"
 		width="75"
 		height="22"
 		groupid="0"
@@ -3232,8 +4026,8 @@ display {
 }
 "related display" {
 	object {
-		x="464"
-		y="625"
+		x="457"
+		y="485"
 		width="75"
 		height="22"
 		groupid="0"
@@ -3366,8 +4160,8 @@ display {
 }
 "related display" {
 	object {
-		x="462"
-		y="858"
+		x="995"
+		y="486"
 		width="75"
 		height="22"
 		groupid="0"
@@ -3498,9 +4292,277 @@ display {
 	menu_title="SAD"
 	decorate="outward"
 }
+"related display" {
+	object {
+		x="457"
+		y="221"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_slave_sad.dl"
+		args="top=$(top), dev=ma"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="992"
+		y="61"
+		width="75"
+		height="22"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Status and Alarms"
+		name="pr_ch2_pumps_sad.dl"
+		args="top=$(top)"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="SAD"
+	decorate="outward"
+}
 "kill display" {
 	object {
-		x="454"
+		x="990"
 		y="8"
 		width="82"
 		height="34"
