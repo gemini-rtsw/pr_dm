@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="94"
-	nstr="152"
-	ndynamic="42"
+	npc="89"
+	nstr="133"
+	ndynamic="44"
 	nplot="0"
 	nrd="5"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="8234"
-	nwords_sta="1744"
+	nwords_dspy="8116"
+	nwords_sta="1792"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="4650"
-	osta="2906"
-	odynamic="4650"
-	oplot="7422"
-	ord="7422"
-	oes="8222"
-	okd="8222"
-	opd="8234"
-	opo="8234"
+	odyng="4400"
+	osta="2608"
+	odynamic="4400"
+	oplot="7304"
+	ord="7304"
+	oes="8104"
+	okd="8104"
+	opd="8116"
+	opo="8116"
 	opc="68"
-	ostr="1282"
-	ocmap="2906"
-	ocrules="2906"
+	ostr="1210"
+	ocmap="2608"
+	ocrules="2608"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,9 +49,9 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2559"
-	pixht="1360"
-	mmwid="677"
+	pixwid="2561"
+	pixht="1362"
+	mmwid="678"
 	mmht="360"
 }
 "<<basic attribute>>" {
@@ -1578,8 +1578,8 @@ display {
 }
 "text" {
 	object {
-		x="10"
-		y="209"
+		x="17"
+		y="205"
 		width="446"
 		height="20"
 		groupid="0"
@@ -1642,8 +1642,8 @@ display {
 }
 "text" {
 	object {
-		x="51"
-		y="237"
+		x="30"
+		y="235"
 		width="50"
 		height="24"
 		groupid="0"
@@ -1653,8 +1653,8 @@ display {
 }
 "text" {
 	object {
-		x="202"
-		y="237"
+		x="264"
+		y="230"
 		width="45"
 		height="24"
 		groupid="0"
@@ -1951,6 +1951,50 @@ display {
 	object {
 		x="964"
 		y="86"
+		width="40"
+		height="16"
+		groupid="0"
+	}
+	textix="hrs"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="147"
+		y="224"
+		width="88"
+		height="16"
+		groupid="0"
+	}
+	textix="runtime:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="216"
+		y="241"
+		width="40"
+		height="16"
+		groupid="0"
+	}
+	textix="hrs"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="378"
+		y="224"
+		width="88"
+		height="16"
+		groupid="0"
+	}
+	textix="runtime:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="446"
+		y="242"
 		width="40"
 		height="16"
 		groupid="0"
@@ -3202,9 +3246,9 @@ display {
 }
 "text update" {
 	object {
-		x="111"
-		y="237"
-		width="80"
+		x="77"
+		y="236"
+		width="60"
 		height="24"
 		groupid="0"
 	}
@@ -3248,9 +3292,9 @@ display {
 }
 "text update" {
 	object {
-		x="250"
-		y="237"
-		width="80"
+		x="309"
+		y="232"
+		width="60"
 		height="24"
 		groupid="0"
 	}
@@ -3720,10 +3764,10 @@ display {
 		bclr="9"
 		label="none"
 		clrmod="rule"
-		rulechan[0] = "$(top)p1runtime.SEVR"
-		rulechan[1] = "$(top)p1runtime.SEVR"
-		rulechan[2] = "$(top)p1runtime.SEVR"
-		rulechan[3] = "$(top)p1runtime.SEVR"
+		rulechan[0] = "$(top)p2runtime.SEVR"
+		rulechan[1] = "$(top)p2runtime.SEVR"
+		rulechan[2] = "$(top)p2runtime.SEVR"
+		rulechan[3] = "$(top)p2runtime.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -3737,7 +3781,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
-		clrargs="C=$(top)p1runtime"
+		clrargs="C=$(top)p2runtime"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -3881,6 +3925,98 @@ display {
 		hdl="0"
 		ldl="0"
 		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="144"
+		y="239"
+		width="73"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)c1runtime"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)c1runtime.SEVR"
+		rulechan[1] = "$(top)c1runtime.SEVR"
+		rulechan[2] = "$(top)c1runtime.SEVR"
+		rulechan[3] = "$(top)c1runtime.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)c1runtime"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="371"
+		y="241"
+		width="73"
+		height="19"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)c2runtime"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)c2runtime.SEVR"
+		rulechan[1] = "$(top)c2runtime.SEVR"
+		rulechan[2] = "$(top)c2runtime.SEVR"
+		rulechan[3] = "$(top)c2runtime.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)c2runtime"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
 		newunits=""
 		units="none"
 		decorate="none"
@@ -4294,8 +4430,8 @@ display {
 }
 "related display" {
 	object {
-		x="457"
-		y="221"
+		x="461"
+		y="210"
 		width="75"
 		height="22"
 		groupid="0"
