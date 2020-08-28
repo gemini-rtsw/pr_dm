@@ -1,0 +1,482 @@
+file {
+	name="pr_air.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="7"
+	nstr="57"
+	ndynamic="2"
+	nplot="0"
+	nrd="1"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="467"
+		height="154"
+	}
+	clr="0"
+	bclr="13"
+	nwords_dspy="1040"
+	nwords_sta="156"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="736"
+	osta="580"
+	odynamic="736"
+	oplot="868"
+	ord="868"
+	oes="1028"
+	okd="1028"
+	opd="1040"
+	opo="1040"
+	opc="68"
+	ostr="148"
+	ocmap="580"
+	ocrules="580"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+	pixwid="2150"
+	pixht="1230"
+	mmwid="569"
+	mmht="325"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="6"
+		width="78"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="103"
+		y="15"
+		width="259"
+		height="24"
+		groupid="0"
+	}
+	textix="Compressed Air"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="5"
+		width="448"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="28"
+		y="8"
+		width="105"
+		height="37"
+		groupid="0"
+	}
+	textix="PR"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="24"
+		y="64"
+		width="152"
+		height="18"
+		groupid="0"
+	}
+	textix="flow OUT"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="52"
+		width="449"
+		height="91"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="389"
+		y="64"
+		width="68"
+		height="17"
+		groupid="0"
+	}
+	textix="[scfm]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="177"
+		y="63"
+		width="55"
+		height="16"
+		groupid="0"
+	}
+	textix="FM10"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="24"
+		y="105"
+		width="152"
+		height="18"
+		groupid="0"
+	}
+	textix="pressure OUT"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="389"
+		y="105"
+		width="68"
+		height="17"
+		groupid="0"
+	}
+	textix="[psi]"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="177"
+		y="104"
+		width="55"
+		height="16"
+		groupid="0"
+	}
+	textix="PT1"
+	align="horiz. left"
+}
+"text update" {
+	object {
+		x="236"
+		y="60"
+		width="135"
+		height="25"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)air:outFlow"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="236"
+		y="101"
+		width="135"
+		height="25"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)air:outPressure"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="362"
+		y="9"
+		width="94"
+		height="34"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}
