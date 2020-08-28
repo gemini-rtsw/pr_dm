@@ -6,11 +6,11 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="17"
-	nstr="76"
-	ndynamic="12"
+	npc="63"
+	nstr="126"
+	ndynamic="32"
 	nplot="0"
-	nrd="1"
+	nrd="0"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="661"
-		height="311"
+		width="687"
+		height="714"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2442"
-	nwords_sta="536"
+	nwords_dspy="5630"
+	nwords_sta="1188"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1478"
-	osta="942"
-	odynamic="1478"
-	oplot="2270"
-	ord="2270"
-	oes="2430"
-	okd="2430"
-	opd="2442"
-	opo="2442"
+	odyng="3506"
+	osta="2318"
+	odynamic="3506"
+	oplot="5618"
+	ord="5618"
+	oes="5618"
+	okd="5618"
+	opd="5630"
+	opo="5630"
 	opc="68"
-	ostr="304"
-	ocmap="942"
-	ocrules="942"
+	ostr="1056"
+	ocmap="2318"
+	ocrules="2318"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,27 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2561"
+	pixwid="2554"
 	pixht="1362"
-	mmwid="678"
+	mmwid="676"
 	mmht="360"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="322"
+		y="322"
+		width="352"
+		height="245"
+		groupid="0"
+	}
 }
 "<<basic attribute>>" {
 	attr {
@@ -81,9 +98,9 @@ display {
 }
 "text" {
 	object {
-		x="144"
+		x="87"
 		y="15"
-		width="343"
+		width="482"
 		height="24"
 		groupid="0"
 	}
@@ -102,7 +119,7 @@ display {
 	object {
 		x="12"
 		y="5"
-		width="638"
+		width="655"
 		height="40"
 		groupid="0"
 	}
@@ -117,10 +134,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="111"
-		width="274"
-		height="190"
+		x="11"
+		y="103"
+		width="309"
+		height="216"
 		groupid="0"
 	}
 }
@@ -154,23 +171,23 @@ display {
 "text" {
 	object {
 		x="19"
-		y="154"
-		width="117"
+		y="219"
+		width="127"
 		height="14"
 		groupid="0"
 	}
-	textix="Coolant OUT"
+	textix="Temperature OUT"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="18"
-		y="193"
+		x="19"
+		y="185"
 		width="117"
 		height="14"
 		groupid="0"
 	}
-	textix="Coolant IN"
+	textix="Temperature IN"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -183,10 +200,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="8"
-		y="102"
-		width="276"
-		height="29"
+		x="10"
+		y="95"
+		width="311"
+		height="54"
 		groupid="0"
 	}
 }
@@ -200,8 +217,8 @@ display {
 }
 "text" {
 	object {
-		x="18"
-		y="107"
+		x="20"
+		y="99"
 		width="254"
 		height="20"
 		groupid="0"
@@ -219,10 +236,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="292"
-		y="110"
-		width="359"
-		height="191"
+		x="322"
+		y="99"
+		width="351"
+		height="220"
 		groupid="0"
 	}
 }
@@ -236,13 +253,13 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="140"
-		width="138"
-		height="14"
+		x="356"
+		y="179"
+		width="66"
+		height="15"
 		groupid="0"
 	}
-	textix="Temperature IN"
+	textix="Module"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -255,10 +272,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="290"
-		y="101"
-		width="362"
-		height="29"
+		x="322"
+		y="95"
+		width="351"
+		height="53"
 		groupid="0"
 	}
 }
@@ -272,8 +289,8 @@ display {
 }
 "text" {
 	object {
-		x="305"
-		y="106"
+		x="338"
+		y="98"
 		width="299"
 		height="20"
 		groupid="0"
@@ -291,8 +308,8 @@ display {
 }
 "text" {
 	object {
-		x="17"
-		y="68"
+		x="44"
+		y="63"
 		width="117"
 		height="14"
 		groupid="0"
@@ -310,9 +327,9 @@ display {
 }
 "rectangle" {
 	object {
-		x="9"
-		y="57"
-		width="643"
+		x="10"
+		y="50"
+		width="661"
 		height="44"
 		groupid="0"
 	}
@@ -327,8 +344,8 @@ display {
 }
 "text" {
 	object {
-		x="323"
-		y="71"
+		x="362"
+		y="66"
 		width="117"
 		height="14"
 		groupid="0"
@@ -338,8 +355,8 @@ display {
 }
 "text" {
 	object {
-		x="250"
-		y="70"
+		x="277"
+		y="65"
 		width="38"
 		height="14"
 		groupid="0"
@@ -349,8 +366,8 @@ display {
 }
 "text" {
 	object {
-		x="230"
-		y="152"
+		x="279"
+		y="218"
 		width="38"
 		height="15"
 		groupid="0"
@@ -360,8 +377,8 @@ display {
 }
 "text" {
 	object {
-		x="562"
-		y="73"
+		x="611"
+		y="65"
 		width="38"
 		height="13"
 		groupid="0"
@@ -372,29 +389,18 @@ display {
 "text" {
 	object {
 		x="615"
-		y="142"
-		width="38"
+		y="155"
+		width="51"
 		height="13"
 		groupid="0"
 	}
-	textix="degC"
+	textix="[degC]"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="615"
-		y="168"
-		width="38"
-		height="13"
-		groupid="0"
-	}
-	textix="degC"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="229"
-		y="192"
+		x="279"
+		y="185"
 		width="38"
 		height="14"
 		groupid="0"
@@ -405,7 +411,7 @@ display {
 "text" {
 	object {
 		x="19"
-		y="230"
+		y="255"
 		width="117"
 		height="14"
 		groupid="0"
@@ -415,8 +421,8 @@ display {
 }
 "text" {
 	object {
-		x="230"
-		y="229"
+		x="279"
+		y="255"
 		width="38"
 		height="14"
 		groupid="0"
@@ -426,8 +432,307 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="194"
+		x="19"
+		y="288"
+		width="167"
+		height="14"
+		groupid="0"
+	}
+	textix="Rejected Heat Power"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="486"
+		y="152"
+		width="133"
+		height="19"
+		groupid="0"
+	}
+	textix="Temperature"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="25"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="90"
+		y="156"
+		width="146"
+		height="19"
+		groupid="0"
+	}
+	textix="Primary Loop"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="19"
+		y="124"
+		width="177"
+		height="14"
+		groupid="0"
+	}
+	textix="Chiller Elect.Power"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="270"
+		y="123"
+		width="35"
+		height="16"
+		groupid="0"
+	}
+	textix="kW"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="279"
+		y="287"
+		width="35"
+		height="16"
+		groupid="0"
+	}
+	textix="kW"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="157"
+		y="255"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="5FLM"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="322"
+		width="309"
+		height="244"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="17"
+		y="409"
+		width="127"
+		height="14"
+		groupid="0"
+	}
+	textix="Temperature OUT"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="17"
+		y="375"
+		width="117"
+		height="14"
+		groupid="0"
+	}
+	textix="Temperature IN"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="279"
+		y="402"
+		width="38"
+		height="15"
+		groupid="0"
+	}
+	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="279"
+		y="369"
+		width="38"
+		height="14"
+		groupid="0"
+	}
+	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="22"
+		y="468"
+		width="117"
+		height="14"
+		groupid="0"
+	}
+	textix="Coolant Flow"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="279"
+		y="462"
+		width="38"
+		height="14"
+		groupid="0"
+	}
+	textix="gpm"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="22"
+		y="501"
+		width="167"
+		height="14"
+		groupid="0"
+	}
+	textix="Rejected Heat Power"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="25"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="78"
+		y="330"
+		width="169"
+		height="19"
+		groupid="0"
+	}
+	textix="Secondary Loop"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="279"
+		y="494"
+		width="35"
+		height="16"
+		groupid="0"
+	}
+	textix="kW"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="157"
+		y="466"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="FM69"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="157"
+		y="374"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="TT??"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="157"
+		y="408"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="TT??"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="334"
+		y="355"
+		width="138"
+		height="14"
+		groupid="0"
+	}
+	textix="Temperature IN"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="634"
+		y="350"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="634"
+		y="376"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="334"
+		y="407"
 		width="117"
 		height="14"
 		groupid="0"
@@ -437,41 +742,19 @@ display {
 }
 "text" {
 	object {
-		x="615"
-		y="277"
+		x="634"
+		y="485"
 		width="38"
 		height="13"
 		groupid="0"
 	}
-	textix="GPM"
+	textix="gpm"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="18"
-		y="268"
-		width="117"
-		height="14"
-		groupid="0"
-	}
-	textix="Coolant Power"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="229"
-		y="267"
-		width="55"
-		height="14"
-		groupid="0"
-	}
-	textix="Watts"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="308"
-		y="233"
+		x="338"
+		y="445"
 		width="168"
 		height="12"
 		groupid="0"
@@ -481,8 +764,8 @@ display {
 }
 "text" {
 	object {
-		x="615"
-		y="193"
+		x="634"
+		y="401"
 		width="31"
 		height="13"
 		groupid="0"
@@ -492,8 +775,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="167"
+		x="334"
+		y="380"
 		width="138"
 		height="14"
 		groupid="0"
@@ -503,8 +786,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="221"
+		x="334"
+		y="434"
 		width="117"
 		height="14"
 		groupid="0"
@@ -514,8 +797,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="248"
+		x="334"
+		y="461"
 		width="186"
 		height="13"
 		groupid="0"
@@ -525,19 +808,19 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="275"
+		x="334"
+		y="488"
 		width="197"
 		height="14"
 		groupid="0"
 	}
-	textix="Chiller 2 Flow OUT"
+	textix="Coolant Flow"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="615"
-		y="223"
+		x="634"
+		y="431"
 		width="31"
 		height="13"
 		groupid="0"
@@ -547,8 +830,8 @@ display {
 }
 "text" {
 	object {
-		x="615"
-		y="251"
+		x="634"
+		y="459"
 		width="31"
 		height="13"
 		groupid="0"
@@ -558,8 +841,8 @@ display {
 }
 "text" {
 	object {
-		x="483"
-		y="140"
+		x="522"
+		y="352"
 		width="38"
 		height="13"
 		groupid="0"
@@ -569,8 +852,8 @@ display {
 }
 "text" {
 	object {
-		x="483"
-		y="168"
+		x="522"
+		y="380"
 		width="38"
 		height="13"
 		groupid="0"
@@ -580,8 +863,8 @@ display {
 }
 "text" {
 	object {
-		x="483"
-		y="196"
+		x="522"
+		y="408"
 		width="38"
 		height="13"
 		groupid="0"
@@ -591,30 +874,19 @@ display {
 }
 "text" {
 	object {
-		x="483"
-		y="226"
-		width="38"
+		x="514"
+		y="438"
+		width="46"
 		height="13"
 		groupid="0"
 	}
-	textix="PT61"
+	textix="28PSX"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="483"
-		y="251"
-		width="38"
-		height="13"
-		groupid="0"
-	}
-	textix="PT62"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="483"
-		y="275"
+		x="522"
+		y="487"
 		width="38"
 		height="13"
 		groupid="0"
@@ -622,11 +894,398 @@ display {
 	textix="FM62"
 	align="horiz. left"
 }
+"text" {
+	object {
+		x="371"
+		y="123"
+		width="177"
+		height="14"
+		groupid="0"
+	}
+	textix="Chiller Elect.Power"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="625"
+		y="123"
+		width="35"
+		height="16"
+		groupid="0"
+	}
+	textix="kW"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="487"
+		y="175"
+		width="38"
+		height="18"
+		groupid="0"
+	}
+	textix="IN"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="591"
+		y="174"
+		width="38"
+		height="18"
+		groupid="0"
+	}
+	textix="OUT"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="25"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="337"
+		y="151"
+		width="146"
+		height="19"
+		groupid="0"
+	}
+	textix="Primary Loop"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="351"
+		y="206"
+		width="66"
+		height="15"
+		groupid="0"
+	}
+	textix="Master"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="351"
+		y="235"
+		width="82"
+		height="15"
+		groupid="0"
+	}
+	textix="Slave #1"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="351"
+		y="264"
+		width="82"
+		height="15"
+		groupid="0"
+	}
+	textix="Slave #2"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="351"
+		y="294"
+		width="82"
+		height="15"
+		groupid="0"
+	}
+	textix="Slave #3"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="25"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="408"
+		y="325"
+		width="169"
+		height="19"
+		groupid="0"
+	}
+	textix="Secondary Loop"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="514"
+		y="461"
+		width="46"
+		height="13"
+		groupid="0"
+	}
+	textix="29PSX"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="334"
+		y="513"
+		width="167"
+		height="14"
+		groupid="0"
+	}
+	textix="Rejected Heat Power"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="637"
+		y="511"
+		width="35"
+		height="16"
+		groupid="0"
+	}
+	textix="kW"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="334"
+		y="535"
+		width="39"
+		height="17"
+		groupid="0"
+	}
+	textix="COP"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="380"
+		y="538"
+		width="164"
+		height="11"
+		groupid="0"
+	}
+	textix="Coeff. of performance"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="569"
+		width="665"
+		height="128"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="38"
+		y="578"
+		width="228"
+		height="17"
+		groupid="0"
+	}
+	textix="HX1 Cold Coolant Flow"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="397"
+		y="578"
+		width="41"
+		height="15"
+		groupid="0"
+	}
+	textix="gpm"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="268"
+		y="580"
+		width="42"
+		height="14"
+		groupid="0"
+	}
+	textix="FM66"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="39"
+		y="664"
+		width="220"
+		height="17"
+		groupid="0"
+	}
+	textix="Differential Pressure"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="400"
+		y="666"
+		width="41"
+		height="15"
+		groupid="0"
+	}
+	textix="psi"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="271"
+		y="667"
+		width="42"
+		height="14"
+		groupid="0"
+	}
+	textix="DPT60"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="455"
+		y="580"
+		width="211"
+		height="12"
+		groupid="0"
+	}
+	textix="(Tel. Intuments)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="457"
+		y="669"
+		width="123"
+		height="12"
+		groupid="0"
+	}
+	textix="(AHUs level 5)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="38"
+		y="608"
+		width="205"
+		height="17"
+		groupid="0"
+	}
+	textix="HX1A Coolant Flow"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="397"
+		y="608"
+		width="41"
+		height="15"
+		groupid="0"
+	}
+	textix="gpm"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="268"
+		y="610"
+		width="42"
+		height="14"
+		groupid="0"
+	}
+	textix="FM68"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="455"
+		y="610"
+		width="211"
+		height="12"
+		groupid="0"
+	}
+	textix="(HBS cold side)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="39"
+		y="638"
+		width="228"
+		height="17"
+		groupid="0"
+	}
+	textix="HX1 warm OUT Temp"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="398"
+		y="638"
+		width="41"
+		height="15"
+		groupid="0"
+	}
+	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="269"
+		y="640"
+		width="42"
+		height="14"
+		groupid="0"
+	}
+	textix="TT3"
+	align="horiz. right"
+}
 "text update" {
 	object {
-		x="130"
-		y="149"
-		width="90"
+		x="201"
+		y="216"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -670,9 +1329,9 @@ display {
 }
 "text update" {
 	object {
-		x="129"
-		y="189"
-		width="90"
+		x="201"
+		y="183"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -681,11 +1340,11 @@ display {
 		clr="11"
 		bclr="6"
 		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1ti.SEVR"
+		rulechan[1] = "$(top)$(dev)c1ti.SEVR"
+		rulechan[2] = "$(top)$(dev)c1ti.SEVR"
+		rulechan[3] = "$(top)$(dev)c1ti.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -698,8 +1357,8 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1ti"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -716,54 +1375,8 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="136"
-		width="90"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev2)extTempIn"
-		clr="11"
-		bclr="6"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="128"
-		y="65"
+		x="155"
+		y="60"
 		width="116"
 		height="20"
 		groupid="0"
@@ -808,8 +1421,8 @@ display {
 }
 "text update" {
 	object {
-		x="440"
-		y="68"
+		x="479"
+		y="63"
 		width="116"
 		height="20"
 		groupid="0"
@@ -854,9 +1467,9 @@ display {
 }
 "text update" {
 	object {
-		x="130"
-		y="226"
-		width="90"
+		x="201"
+		y="253"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -900,22 +1513,22 @@ display {
 }
 "text update" {
 	object {
-		x="129"
-		y="264"
-		width="90"
+		x="201"
+		y="286"
+		width="70"
 		height="20"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)Chill1Pwr"
+		chan="$(top)$(dev)c1RejPow"
 		clr="11"
 		bclr="6"
 		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1RejPow.SEVR"
+		rulechan[1] = "$(top)$(dev)c1RejPow.SEVR"
+		rulechan[2] = "$(top)$(dev)c1RejPow.SEVR"
+		rulechan[3] = "$(top)$(dev)c1RejPow.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -928,8 +1541,8 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1RejPow"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -946,9 +1559,285 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="163"
-		width="90"
+		x="185"
+		y="122"
+		width="75"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)elec:ch1totRealPwr"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "pr:elec:ch1totRealPwr.SEVR"
+		rulechan[1] = "pr:elec:ch1totRealPwr.SEVR"
+		rulechan[2] = "pr:elec:ch1totRealPwr.SEVR"
+		rulechan[3] = "pr:elec:ch1totRealPwr.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=pr:elec:ch1totRealPwr"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="201"
+		y="400"
+		width="70"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)c1t2o"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1t2o.SEVR"
+		rulechan[1] = "$(top)$(dev)c1t2o.SEVR"
+		rulechan[2] = "$(top)$(dev)c1t2o.SEVR"
+		rulechan[3] = "$(top)$(dev)c1t2o.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1t2o"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="201"
+		y="367"
+		width="70"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)c1t2i"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1t2i.SEVR"
+		rulechan[1] = "$(top)$(dev)c1t2i.SEVR"
+		rulechan[2] = "$(top)$(dev)c1t2i.SEVR"
+		rulechan[3] = "$(top)$(dev)c1t2i.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1t2i"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="201"
+		y="460"
+		width="70"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)c1flow2"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1flow2.SEVR"
+		rulechan[1] = "$(top)$(dev)c1flow2.SEVR"
+		rulechan[2] = "$(top)$(dev)c1flow2.SEVR"
+		rulechan[3] = "$(top)$(dev)c1flow2.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1flow2"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="201"
+		y="493"
+		width="70"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)c1RejPow2"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev)c1RejPow2.SEVR"
+		rulechan[1] = "$(top)$(dev)c1RejPow2.SEVR"
+		rulechan[2] = "$(top)$(dev)c1RejPow2.SEVR"
+		rulechan[3] = "$(top)$(dev)c1RejPow2.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev)c1RejPow2"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="560"
+		y="345"
+		width="70"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev2)extTempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extTempIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)extTempIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)extTempIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)extTempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extTempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="560"
+		y="372"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -992,9 +1881,9 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="191"
-		width="90"
+		x="560"
+		y="400"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -1003,11 +1892,11 @@ display {
 		clr="11"
 		bclr="6"
 		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extPresIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)extPresIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)extPresIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)extPresIn.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1020,8 +1909,8 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extPresIn"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1038,9 +1927,9 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="220"
-		width="90"
+		x="560"
+		y="429"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -1049,11 +1938,11 @@ display {
 		clr="11"
 		bclr="6"
 		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extPresOut.SEVR"
+		rulechan[1] = "$(top)$(dev2)extPresOut.SEVR"
+		rulechan[2] = "$(top)$(dev2)extPresOut.SEVR"
+		rulechan[3] = "$(top)$(dev2)extPresOut.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1066,8 +1955,8 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extPresOut"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1084,9 +1973,9 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="246"
-		width="90"
+		x="560"
+		y="455"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -1095,11 +1984,11 @@ display {
 		clr="11"
 		bclr="6"
 		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extDisPres.SEVR"
+		rulechan[1] = "$(top)$(dev2)extDisPres.SEVR"
+		rulechan[2] = "$(top)$(dev2)extDisPres.SEVR"
+		rulechan[3] = "$(top)$(dev2)extDisPres.SEVR"
 		rulechan[4] = ""
 		rulechan[5] = ""
 		rulechan[6] = ""
@@ -1112,8 +2001,8 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extDisPres"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1130,9 +2019,9 @@ display {
 }
 "text update" {
 	object {
-		x="518"
-		y="272"
-		width="90"
+		x="560"
+		y="481"
+		width="70"
 		height="20"
 		groupid="0"
 	}
@@ -1174,144 +2063,700 @@ display {
 	align="horiz. right"
 	format="decimal"
 }
-"related display" {
+"text update" {
 	object {
-		x="1348"
-		y="600"
-		width="194"
-		height="80"
+		x="537"
+		y="121"
+		width="75"
+		height="20"
 		groupid="0"
 	}
-	selfkill="off"
-	display[0] {
-		label="TEST & CONFIG"
-		name="TCS_TestConfig.dl"
-		args="T=ec,B=testblock"
+	monitor {
+		chan="$(top)elec:ch2totRealPwr"
+		clr="11"
+		bclr="9"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "pr:elec:ch2totRealPwr.SEVR"
+		rulechan[1] = "pr:elec:ch2totRealPwr.SEVR"
+		rulechan[2] = "pr:elec:ch2totRealPwr.SEVR"
+		rulechan[3] = "pr:elec:ch2totRealPwr.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=pr:elec:ch2totRealPwr"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[1] {
-		label=""
-		name=""
-		args=""
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="466"
+		y="200"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[2] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)maTempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)maTempIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)maTempIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)maTempIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)maTempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)maTempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[3] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="570"
+		y="200"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[4] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)maTempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)maTempOut.SEVR"
+		rulechan[1] = "$(top)$(dev2)maTempOut.SEVR"
+		rulechan[2] = "$(top)$(dev2)maTempOut.SEVR"
+		rulechan[3] = "$(top)$(dev2)maTempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)maTempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[5] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="466"
+		y="229"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[6] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm1TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm1TempIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm1TempIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm1TempIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm1TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm1TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[7] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="570"
+		y="229"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[8] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm1TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm1TempOut.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm1TempOut.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm1TempOut.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm1TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm1TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[9] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="466"
+		y="258"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[10] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm2TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm2TempIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm2TempIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm2TempIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm2TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm2TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[11] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="570"
+		y="258"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[12] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm2TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm2TempOut.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm2TempOut.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm2TempOut.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm2TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm2TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[13] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="466"
+		y="288"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[14] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm3TempIn"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm3TempIn.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm3TempIn.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm3TempIn.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm3TempIn.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm3TempIn"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[15] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="570"
+		y="288"
+		width="80"
+		height="24"
+		groupid="0"
 	}
-	display[16] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)sm3TempOut"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)sm3TempOut.SEVR"
+		rulechan[1] = "$(top)$(dev2)sm3TempOut.SEVR"
+		rulechan[2] = "$(top)$(dev2)sm3TempOut.SEVR"
+		rulechan[3] = "$(top)$(dev2)sm3TempOut.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)sm3TempOut"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[17] {
-		label=""
-		name=""
-		args=""
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="561"
+		y="508"
+		width="70"
+		height="20"
+		groupid="0"
 	}
-	display[18] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)extRejPow2"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extRejPow2.SEVR"
+		rulechan[1] = "$(top)$(dev2)extRejPow2.SEVR"
+		rulechan[2] = "$(top)$(dev2)extRejPow2.SEVR"
+		rulechan[3] = "$(top)$(dev2)extRejPow2.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extRejPow2"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[19] {
-		label=""
-		name=""
-		args=""
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="560"
+		y="533"
+		width="70"
+		height="20"
+		groupid="0"
 	}
-	display[20] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)$(dev2)extCOP"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)$(dev2)extCOP.SEVR"
+		rulechan[1] = "$(top)$(dev2)extCOP.SEVR"
+		rulechan[2] = "$(top)$(dev2)extCOP.SEVR"
+		rulechan[3] = "$(top)$(dev2)extCOP.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)$(dev2)extCOP"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[21] {
-		label=""
-		name=""
-		args=""
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="317"
+		y="576"
+		width="70"
+		height="21"
+		groupid="0"
 	}
-	display[22] {
-		label=""
-		name=""
-		args=""
+	monitor {
+		chan="$(top)hx1:coolantFlow"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)hx1:coolantFlow.SEVR"
+		rulechan[1] = "$(top)hx1:coolantFlow.SEVR"
+		rulechan[2] = "$(top)hx1:coolantFlow.SEVR"
+		rulechan[3] = "$(top)hx1:coolantFlow.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)hx1:coolantFlow"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
 	}
-	display[23] {
-		label=""
-		name=""
-		args=""
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="320"
+		y="664"
+		width="70"
+		height="21"
+		groupid="0"
 	}
-	clr="0"
-	bclr="6"
-	menu_title="TEST & CONFIG"
-	decorate="outward"
+	monitor {
+		chan="$(top)ahu:diffPres"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)ahu:diffPres.SEVR"
+		rulechan[1] = "$(top)ahu:diffPres.SEVR"
+		rulechan[2] = "$(top)ahu:diffPres.SEVR"
+		rulechan[3] = "$(top)ahu:diffPres.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)ahu:diffPres"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="317"
+		y="606"
+		width="70"
+		height="21"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)hx1a:coolantFlow"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)hx1a:coolantFlow.SEVR"
+		rulechan[1] = "$(top)hx1a:coolantFlow.SEVR"
+		rulechan[2] = "$(top)hx1a:coolantFlow.SEVR"
+		rulechan[3] = "$(top)hx1a:coolantFlow.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)hx1a:coolantFlow"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="318"
+		y="636"
+		width="70"
+		height="21"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)hx1:warmOutTemp"
+		clr="11"
+		bclr="6"
+		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)hx1:warmOutTemp.SEVR"
+		rulechan[1] = "$(top)hx1:warmOutTemp.SEVR"
+		rulechan[2] = "$(top)hx1:warmOutTemp.SEVR"
+		rulechan[3] = "$(top)hx1:warmOutTemp.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)hx1:warmOutTemp"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
 }
 "kill display" {
 	object {
-		x="552"
-		y="9"
+		x="570"
+		y="8"
 		width="94"
 		height="34"
 		groupid="0"

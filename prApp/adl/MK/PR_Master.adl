@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="3"
-	nstr="121"
-	ndynamic="2"
+	npc="4"
+	nstr="127"
+	ndynamic="3"
 	nplot="0"
 	nrd="12"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3630"
-	nwords_sta="156"
+	nwords_dspy="3776"
+	nwords_sta="196"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1566"
-	osta="1410"
-	odynamic="1566"
-	oplot="1698"
-	ord="1698"
-	oes="3618"
-	okd="3618"
-	opd="3630"
-	opo="3630"
+	odyng="1646"
+	osta="1450"
+	odynamic="1646"
+	oplot="1844"
+	ord="1844"
+	oes="3764"
+	okd="3764"
+	opd="3776"
+	opo="3776"
 	opc="68"
-	ostr="96"
-	ocmap="1410"
-	ocrules="1410"
+	ostr="106"
+	ocmap="1450"
+	ocrules="1450"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -50,7 +50,7 @@ display {
 	pv=""
 	cmap="colorsMK.dl"
 	pixwid="2559"
-	pixht="1360"
+	pixht="1362"
 	mmwid="677"
 	mmht="360"
 }
@@ -170,10 +170,10 @@ display {
 }
 "text" {
 	object {
-		x="70"
-		y="340"
-		width="71"
-		height="17"
+		x="179"
+		y="343"
+		width="76"
+		height="15"
 		groupid="0"
 	}
 	textix="PR SIOC"
@@ -208,13 +208,13 @@ display {
 }
 "text" {
 	object {
-		x="44"
-		y="352"
-		width="105"
-		height="17"
+		x="180"
+		y="359"
+		width="81"
+		height="15"
 		groupid="0"
 	}
-	textix="HEARTBEAT"
+	textix="Heartbeat"
 	align="horiz. right"
 }
 "<<basic attribute>>" {
@@ -227,31 +227,72 @@ display {
 }
 "text" {
 	object {
-		x="301"
-		y="339"
-		width="94"
-		height="15"
+		x="332"
+		y="342"
+		width="88"
+		height="17"
 		groupid="0"
 	}
-	textix="Plant Room"
+	textix="PR PLC"
 	align="horiz. right"
 }
 "text" {
 	object {
-		x="320"
-		y="354"
-		width="75"
+		x="348"
+		y="359"
+		width="82"
 		height="15"
 		groupid="0"
 	}
-	textix="PLC Link"
+	textix="Heartbeat"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="14"
+		y="346"
+		width="59"
+		height="15"
+		groupid="0"
+	}
+	textix="PR Air"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="21"
+		y="358"
+		width="42"
+		height="17"
+		groupid="0"
+	}
+	textix="Temp"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="87"
+		y="363"
+		width="64"
+		height="16"
+		groupid="0"
+	}
+	textix="[degC]"
 	align="horiz. right"
 }
 "text update" {
 	object {
-		x="164"
-		y="342"
-		width="91"
+		x="264"
+		y="345"
+		width="60"
 		height="27"
 		groupid="0"
 	}
@@ -295,9 +336,9 @@ display {
 }
 "text update" {
 	object {
-		x="409"
-		y="342"
-		width="69"
+		x="441"
+		y="345"
+		width="60"
 		height="28"
 		groupid="0"
 	}
@@ -324,6 +365,52 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="81"
+		y="336"
+		width="73"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)airTemp"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
 		clrargs=""
 		rulecolorbg="0"
 		rulecolorfg="0"

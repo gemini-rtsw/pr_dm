@@ -5,9 +5,9 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="13"
-	npc="17"
-	nstr="67"
+	ndyng="15"
+	npc="18"
+	nstr="72"
 	ndynamic="4"
 	nplot="0"
 	nrd="1"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="634"
-		height="258"
+		height="278"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2374"
-	nwords_sta="272"
+	nwords_dspy="2616"
+	nwords_sta="328"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1186"
-	osta="914"
-	odynamic="1938"
-	oplot="2202"
-	ord="2202"
-	oes="2362"
-	okd="2362"
-	opd="2374"
-	opo="2374"
+	odyng="1308"
+	osta="980"
+	odynamic="2180"
+	oplot="2444"
+	ord="2444"
+	oes="2604"
+	okd="2604"
+	opd="2616"
+	opo="2616"
 	opc="68"
-	ostr="336"
-	ocmap="914"
-	ocrules="914"
+	ostr="354"
+	ocmap="980"
+	ocrules="980"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2554"
-	pixht="1359"
-	mmwid="676"
-	mmht="360"
+	pixwid="2557"
+	pixht="1357"
+	mmwid="677"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -120,7 +120,7 @@ display {
 		x="12"
 		y="113"
 		width="300"
-		height="139"
+		height="81"
 		groupid="0"
 	}
 }
@@ -153,8 +153,8 @@ display {
 }
 "text" {
 	object {
-		x="35"
-		y="192"
+		x="37"
+		y="168"
 		width="205"
 		height="14"
 		groupid="0"
@@ -211,7 +211,7 @@ display {
 		x="323"
 		y="112"
 		width="300"
-		height="141"
+		height="155"
 		groupid="0"
 	}
 }
@@ -382,6 +382,78 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="13"
+		y="198"
+		width="300"
+		height="70"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="41"
+		y="241"
+		width="126"
+		height="15"
+		groupid="0"
+	}
+	textix="Run at Speed"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="199"
+		width="302"
+		height="29"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="22"
+		y="204"
+		width="254"
+		height="20"
+		groupid="0"
+	}
+	textix="EF13 Aux Exhaust Fan"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
 		clr="12"
 		style="solid"
 		fill="outline"
@@ -421,8 +493,8 @@ display {
 }
 "text" {
 	object {
-		x="32"
-		y="150"
+		x="36"
+		y="140"
 		width="215"
 		height="16"
 		groupid="0"
@@ -463,8 +535,8 @@ display {
 }
 "text" {
 	object {
-		x="32"
-		y="149"
+		x="36"
+		y="139"
 		width="212"
 		height="17"
 		groupid="0"
@@ -505,8 +577,8 @@ display {
 }
 "text" {
 	object {
-		x="243"
-		y="186"
+		x="245"
+		y="162"
 		width="40"
 		height="26"
 		groupid="0"
@@ -555,8 +627,8 @@ display {
 }
 "text" {
 	object {
-		x="246"
-		y="186"
+		x="248"
+		y="162"
 		width="48"
 		height="26"
 		groupid="0"
@@ -965,13 +1037,113 @@ display {
 }
 "text" {
 	object {
-		x="31"
-		y="149"
+		x="35"
+		y="139"
 		width="212"
 		height="17"
 		groupid="0"
 	}
 	textix="80 - Disabled in Auto"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="25"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)$(dev)ef1soword:bits.B1"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule=""
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="195"
+		y="236"
+		width="90"
+		height="26"
+		groupid="0"
+	}
+	textix="TRUE"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)$(dev)ef1soword:bits.B1"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="194"
+		y="235"
+		width="87"
+		height="26"
+		groupid="0"
+	}
+	textix="FALSE"
 	align="horiz. centered"
 }
 "text update" {
