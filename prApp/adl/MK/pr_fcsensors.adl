@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2559"
-	pixht="1360"
-	mmwid="677"
-	mmht="360"
+	pixwid="1966"
+	pixht="1116"
+	mmwid="520"
+	mmht="295"
 }
 "<<basic attribute>>" {
 	attr {
