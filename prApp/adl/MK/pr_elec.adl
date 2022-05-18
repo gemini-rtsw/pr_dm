@@ -5,9 +5,9 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="0"
-	npc="35"
-	nstr="81"
+	ndyng="6"
+	npc="36"
+	nstr="84"
 	ndynamic="34"
 	nplot="0"
 	nrd="1"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="387"
-		height="967"
+		width="379"
+		height="1009"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="5612"
+	nwords_dspy="5934"
 	nwords_sta="852"
 	nwords_cmap="120"
 	nwords_crules="1024"
-	odyng="3196"
-	osta="2344"
-	odynamic="3196"
-	oplot="5440"
-	ord="5440"
-	oes="5600"
-	okd="5600"
-	opd="5612"
-	opo="5612"
+	odyng="3250"
+	osta="2398"
+	odynamic="3518"
+	oplot="5762"
+	ord="5762"
+	oes="5922"
+	okd="5922"
+	opd="5934"
+	opo="5934"
 	opc="68"
-	ostr="548"
-	ocmap="1200"
-	ocrules="1320"
+	ostr="562"
+	ocmap="1254"
+	ocrules="1374"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap=""
-	pixwid="2554"
-	pixht="1359"
-	mmwid="676"
-	mmht="360"
+	pixwid="2560"
+	pixht="2538"
+	mmwid="674"
+	mmht="668"
 }
 "<<color map>>" {
 	ncolors="29"
@@ -1517,10 +1517,10 @@ display {
 "rectangle" {
 	object {
 		x="13"
-		y="305"
+		y="303"
 		width="362"
-		height="651"
-		groupid="0"
+		height="693"
+		groupid="21"
 	}
 }
 "<<basic attribute>>" {
@@ -2295,6 +2295,242 @@ display {
 	}
 	textix="kVAh"
 	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="static"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan=""
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="11"
+		y="951"
+		width="202"
+		height="17"
+		groupid="23"
+	}
+	textix="Helium Compressor"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="74"
+		y="968"
+		width="134"
+		height="16"
+		groupid="0"
+	}
+	textix="AC Power"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="0"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="294"
+		y="959"
+		width="0"
+		height="0"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:ef:heCompACPower"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="222"
+		y="960"
+		width="140"
+		height="12"
+		groupid="0"
+	}
+	textix="Power Monitor Fault"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="0"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="static"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan=""
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="227"
+		y="960"
+		width="13"
+		height="6"
+		groupid="0"
+	}
+	textix=""
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:ef:heCompACPower"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="219"
+		y="960"
+		width="140"
+		height="12"
+		groupid="0"
+	}
+	textix="Power Monitor OK"
+	align="horiz. left"
 }
 "text update" {
 	object {
