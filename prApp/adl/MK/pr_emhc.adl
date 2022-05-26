@@ -5,9 +5,9 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="2"
-	npc="20"
-	nstr="55"
+	ndyng="1"
+	npc="17"
+	nstr="51"
 	ndynamic="15"
 	nplot="0"
 	nrd="1"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="590"
-		height="394"
+		width="586"
+		height="386"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2296"
-	nwords_sta="168"
+	nwords_dspy="2208"
+	nwords_sta="184"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1002"
-	osta="834"
-	odynamic="1074"
-	oplot="2124"
-	ord="2124"
-	oes="2284"
-	okd="2284"
-	opd="2296"
-	opo="2296"
+	odyng="930"
+	osta="746"
+	odynamic="986"
+	oplot="2036"
+	ord="2036"
+	oes="2196"
+	okd="2196"
+	opd="2208"
+	opo="2208"
 	opc="68"
-	ostr="392"
-	ocmap="834"
-	ocrules="834"
+	ostr="332"
+	ocmap="746"
+	ocrules="746"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="4352"
-	pixht="1418"
-	mmwid="1134"
-	mmht="366"
+	pixwid="2560"
+	pixht="2538"
+	mmwid="662"
+	mmht="649"
 }
 "<<basic attribute>>" {
 	attr {
@@ -260,6 +260,25 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="24"
+		y="332"
+		width="223"
+		height="20"
+		groupid="0"
+	}
+	textix="EMHC 14-16-18   6CON"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
 		clr="0"
 		style="solid"
 		fill="outline"
@@ -305,25 +324,6 @@ display {
 		height="0"
 		groupid="0"
 	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="10"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="24"
-		y="332"
-		width="223"
-		height="20"
-		groupid="0"
-	}
-	textix="EMHC 14-16-18   6CON"
-	align="horiz. left"
 }
 "message button" {
 	object {
@@ -523,9 +523,9 @@ display {
 		chan="$(top)emhc:emhc5CONStatus"
 		clr="12"
 		bclr="13"
-		label="outline"
-		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu5.VAL"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -541,7 +541,7 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="alarm"
+		clrrule=""
 		clrargs=""
 		rulecolorbg="0"
 		rulecolorfg="0"
@@ -951,7 +951,7 @@ display {
 		chan="$(top)emhc:emhc6CONStart"
 		clr="10"
 		bclr="9"
-		label="none"
+		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
 		rulechan[1] = ""
@@ -999,7 +999,7 @@ display {
 		chan="$(top)emhc:emhc6CONStop"
 		clr="10"
 		bclr="9"
-		label="none"
+		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
 		rulechan[1] = ""
