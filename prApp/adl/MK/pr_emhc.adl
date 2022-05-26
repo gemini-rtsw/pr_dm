@@ -6,11 +6,11 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="1"
-	npc="17"
-	nstr="51"
+	npc="16"
+	nstr="48"
 	ndynamic="15"
 	nplot="0"
-	nrd="1"
+	nrd="0"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="586"
-		height="386"
+		width="626"
+		height="468"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2208"
+	nwords_dspy="1994"
 	nwords_sta="184"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="930"
-	osta="746"
-	odynamic="986"
-	oplot="2036"
-	ord="2036"
-	oes="2196"
-	okd="2196"
-	opd="2208"
-	opo="2208"
+	odyng="876"
+	osta="692"
+	odynamic="932"
+	oplot="1982"
+	ord="1982"
+	oes="1982"
+	okd="1982"
+	opd="1994"
+	opo="1994"
 	opc="68"
-	ostr="332"
-	ocmap="746"
-	ocrules="746"
+	ostr="312"
+	ocmap="692"
+	ocrules="692"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -941,15 +941,15 @@ display {
 }
 "message button" {
 	object {
-		x="376"
+		x="377"
 		y="326"
-		width="91"
-		height="24"
+		width="89"
+		height="25"
 		groupid="0"
 	}
 	control {
 		chan="$(top)emhc:emhc6CONStart"
-		clr="10"
+		clr="8"
 		bclr="9"
 		label="outline"
 		clrmod="static"
@@ -985,19 +985,19 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
-		x="467"
+		x="466"
 		y="326"
-		width="88"
+		width="89"
 		height="25"
 		groupid="0"
 	}
 	control {
 		chan="$(top)emhc:emhc6CONStop"
-		clr="10"
+		clr="8"
 		bclr="9"
 		label="outline"
 		clrmod="static"
@@ -1033,141 +1033,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
-}
-"related display" {
-	object {
-		x="1348"
-		y="600"
-		width="194"
-		height="80"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="TEST & CONFIG"
-		name="TCS_TestConfig.dl"
-		args="T=ec,B=testblock"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="TEST & CONFIG"
-	decorate="outward"
+	release_msg="1"
 }
 "kill display" {
 	object {
