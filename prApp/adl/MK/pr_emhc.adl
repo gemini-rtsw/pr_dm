@@ -334,7 +334,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc1CONStart"
+		chan="$(top)emhcStartbit0"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -566,7 +566,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc1CONStop"
+		chan="$(top)emhcStopbit1"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -614,7 +614,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc3CONStart"
+		chan="$(top)emhcStartbit2"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -662,7 +662,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc3CONStop"
+		chan="$(top)emhcStopbit3"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -710,7 +710,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc4CONStart"
+		chan="$(top)emhcStartbit4"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -758,7 +758,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc4CONStop"
+		chan="$(top)emhcStopbit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -806,7 +806,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc5CONStart"
+		chan="$(top)emhcStartbit6"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -854,7 +854,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc5CONStop"
+		chan="$(top)emhcStopbit7"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -948,7 +948,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc6CONStart"
+		chan="$(top)emhcStartbit8"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -996,7 +996,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)emhc:emhc6CONStop"
+		chan="$(top)emhcStopbit9"
 		clr="8"
 		bclr="9"
 		label="outline"
