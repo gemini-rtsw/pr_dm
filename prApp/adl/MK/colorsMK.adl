@@ -293,14 +293,14 @@ display {
 			clr="14"
 		}
 		info[4] {
-			chan="$(C).VAL"
+			chan="$(C)"
 			value="ON"
 			connector="use"
 			comparator="equals"
 			clr="4"
 		}
 		info[5] {
-			chan="$(C).VAL"
+			chan="$(C)"
 			value="OFF"
 			connector="use"
 			comparator="equals"

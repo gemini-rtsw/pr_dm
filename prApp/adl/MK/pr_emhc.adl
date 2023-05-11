@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="99"
-	nstr="68"
+	nstr="69"
 	ndynamic="98"
 	nplot="0"
 	nrd="1"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1505"
-		height="792"
+		width="1460"
+		height="775"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="9418"
+	nwords_dspy="9426"
 	nwords_sta="540"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2508"
-	osta="1968"
-	odynamic="2508"
-	oplot="9246"
-	ord="9246"
-	oes="9406"
-	okd="9406"
-	opd="9418"
-	opo="9418"
+	odyng="2516"
+	osta="1976"
+	odynamic="2516"
+	oplot="9254"
+	ord="9254"
+	oes="9414"
+	okd="9414"
+	opd="9426"
+	opo="9426"
 	opc="68"
 	ostr="1418"
-	ocmap="1968"
-	ocrules="1968"
+	ocmap="1976"
+	ocrules="1976"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -2075,7 +2075,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2123,7 +2123,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2171,7 +2171,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2219,7 +2219,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2267,7 +2267,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2315,7 +2315,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2363,7 +2363,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2411,7 +2411,7 @@ display {
 	inactive_label="ON"
 	pressed_label="ON"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2459,7 +2459,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2507,7 +2507,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2555,7 +2555,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2603,7 +2603,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2651,7 +2651,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2699,7 +2699,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2747,7 +2747,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -2795,7 +2795,7 @@ display {
 	inactive_label="OFF"
 	pressed_label="OFF"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "text update" {
 	object {
@@ -3480,7 +3480,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3528,7 +3528,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3576,7 +3576,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3624,7 +3624,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3672,7 +3672,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3720,7 +3720,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -3768,7 +3768,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "text update" {
 	object {
@@ -4180,7 +4180,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4228,7 +4228,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4276,7 +4276,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4324,7 +4324,7 @@ display {
 	inactive_label="Confirm"
 	pressed_label="Confirm"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "text update" {
 	object {
@@ -4553,10 +4553,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	inactive_label=""
-	pressed_label=""
+	inactive_label="CONFIRM"
+	pressed_label="CONFIRM"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4601,10 +4601,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	inactive_label=""
-	pressed_label=""
+	inactive_label="CONFIRM"
+	pressed_label="CONFIRM"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4649,10 +4649,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	inactive_label=""
-	pressed_label=""
+	inactive_label="CONFIRM"
+	pressed_label="CONFIRM"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "message button" {
 	object {
@@ -4697,10 +4697,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	inactive_label=""
-	pressed_label=""
+	inactive_label="CONFIRM"
+	pressed_label="CONFIRM"
 	press_msg=""
-	release_msg=""
+	release_msg="1"
 }
 "text update" {
 	object {
