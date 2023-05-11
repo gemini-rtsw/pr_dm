@@ -1,12 +1,12 @@
 file {
-	name="pr_emhc.adl"
+	name="pr_emhc.dl"
 }
 display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="15"
-	npc="107"
+	ndyng="0"
+	npc="99"
 	nstr="68"
 	ndynamic="98"
 	nplot="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1449"
-		height="813"
+		width="1434"
+		height="809"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="9616"
-	nwords_sta="344"
+	nwords_dspy="9466"
+	nwords_sta="540"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2466"
-	osta="2122"
-	odynamic="2706"
-	oplot="9444"
-	ord="9444"
-	oes="9604"
-	okd="9604"
-	opd="9616"
-	opo="9616"
+	odyng="2556"
+	osta="2016"
+	odynamic="2556"
+	oplot="9294"
+	ord="9294"
+	oes="9454"
+	okd="9454"
+	opd="9466"
+	opo="9466"
 	opc="68"
-	ostr="1572"
-	ocmap="2122"
-	ocrules="2122"
+	ostr="1466"
+	ocmap="2016"
+	ocrules="2016"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="5120"
-	pixht="2538"
-	mmwid="1355"
-	mmht="669"
+	pixwid="1792"
+	pixht="1098"
+	mmwid="471"
+	mmht="282"
 }
 "<<basic attribute>>" {
 	attr {
@@ -289,7 +289,7 @@ display {
 	object {
 		x="471"
 		y="91"
-		width="564"
+		width="623"
 		height="21"
 		groupid="0"
 	}
@@ -478,37 +478,6 @@ display {
 		width="0"
 	}
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="rule"
-			vis="static"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan=""
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
 "text" {
 	object {
 		x="426"
@@ -631,7 +600,7 @@ display {
 	object {
 		x="260"
 		y="252"
-		width="160"
+		width="180"
 		height="20"
 		groupid="0"
 	}
@@ -650,7 +619,7 @@ display {
 	object {
 		x="426"
 		y="699"
-		width="67"
+		width="112"
 		height="20"
 		groupid="0"
 	}
@@ -680,7 +649,7 @@ display {
 	object {
 		x="73"
 		y="138"
-		width="234"
+		width="306"
 		height="20"
 		groupid="0"
 	}
@@ -691,7 +660,7 @@ display {
 	object {
 		x="72"
 		y="161"
-		width="312"
+		width="348"
 		height="20"
 		groupid="0"
 	}
