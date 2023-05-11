@@ -718,7 +718,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit7.PROC"
+		chan="pr:EnableEnablebit7"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -766,7 +766,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit10.PROC"
+		chan="pr:EnableEnablebit10"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -814,7 +814,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit2.PROC"
+		chan="pr:EnableEnablebit2"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -862,7 +862,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil7Status"
+		chan="pr:emhc:coil6Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -908,7 +908,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil1Status"
+		chan="pr:emhc:coil0Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -954,7 +954,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil9Status"
+		chan="pr:emhc:coil8Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1000,7 +1000,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil4Status"
+		chan="pr:emhc:coil3Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1046,7 +1046,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit7.PROC"
+		chan="pr:DisableDisablebit7"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1094,7 +1094,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit10.PROC"
+		chan="pr:DisableDisablebit10"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1142,7 +1142,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit2.PROC"
+		chan="pr:DisableDisablebit2"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1190,7 +1190,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit1.PROC"
+		chan="pr:EnableEnablebit1"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1238,7 +1238,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit1.PROC"
+		chan="pr:DisableDisablebit1"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1286,7 +1286,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit9.PROC"
+		chan="pr:EnableEnablebit9"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1334,7 +1334,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit9.PROC"
+		chan="pr:DisableDisablebit9"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1382,7 +1382,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit4.PROC"
+		chan="pr:EnableEnablebit4"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1430,7 +1430,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit4.PROC"
+		chan="pr:DisableDisablebit4"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1478,7 +1478,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil11Status"
+		chan="pr:emhc:coil10Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1524,7 +1524,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit11.PROC"
+		chan="pr:EnableEnablebit11"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1572,7 +1572,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit11.PROC"
+		chan="pr:DisableDisablebit11"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1620,7 +1620,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil10Status"
+		chan="pr:emhc:coil9Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1666,7 +1666,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil2Status"
+		chan="pr:emhc:coil1Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1712,7 +1712,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil15Status"
+		chan="pr:emhc:coil14Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1758,7 +1758,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil6Status"
+		chan="pr:emhc:coil5Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1804,7 +1804,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil8Status"
+		chan="pr:emhc:coil7Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1850,7 +1850,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil14Status"
+		chan="pr:emhc:coil13Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1896,7 +1896,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil12Status"
+		chan="pr:emhc:coil11Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1942,7 +1942,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil13Status"
+		chan="pr:emhc:coil12Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -1988,7 +1988,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil5Status"
+		chan="pr:emhc:coil4Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -2034,7 +2034,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil3Status"
+		chan="pr:emhc:coil2Status"
 		clr="12"
 		bclr="13"
 		label="outline"
@@ -2080,7 +2080,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit15.PROC"
+		chan="pr:EnableEnablebit15"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2128,7 +2128,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit6.PROC"
+		chan="pr:EnableEnablebit6"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2176,7 +2176,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit8.PROC"
+		chan="pr:EnableEnablebit8"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2224,7 +2224,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit14.PROC"
+		chan="pr:EnableEnablebit14"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2272,7 +2272,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit12.PROC"
+		chan="pr:EnableEnablebit12"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2320,7 +2320,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit3.PROC"
+		chan="pr:EnableEnablebit3"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2368,7 +2368,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit5.PROC"
+		chan="pr:EnableEnablebit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2416,7 +2416,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit13.PROC"
+		chan="pr:EnableEnablebit13"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2464,7 +2464,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit15.PROC"
+		chan="pr:DisableDisablebit15"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2512,7 +2512,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit14.PROC"
+		chan="pr:DisableDisablebit14"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2560,7 +2560,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit8.PROC"
+		chan="pr:DisableDisablebit8"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2608,7 +2608,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit6.PROC"
+		chan="pr:DisableDisablebit6"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2656,7 +2656,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit12.PROC"
+		chan="pr:DisableDisablebit12"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2704,7 +2704,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit3.PROC"
+		chan="pr:DisableDisablebit3"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2752,7 +2752,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit5.PROC"
+		chan="pr:DisableDisablebit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2800,7 +2800,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit13.PROC"
+		chan="pr:DisableDisablebit13"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -4090,7 +4090,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="pr:emhc:coil16Status"
+		chan="pr:emhc:coil15Status"
 		clr="12"
 		bclr="13"
 		label="none"
@@ -4136,7 +4136,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcEnablebit16.PROC"
+		chan="pr:EnableEnablebit16"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4184,7 +4184,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcDisablebit16.PROC"
+		chan="pr:DisableDisablebit16"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4278,7 +4278,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStartbit0.PROC"
+		chan="pr:emhcStartbit0"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4326,7 +4326,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStopbit1.PROC"
+		chan="pr:emhcStopbit1"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4374,7 +4374,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStartbit8.PROC"
+		chan="pr:emhcStartbit8"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4422,7 +4422,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStopbit9.PROC"
+		chan="pr:emhcStopbit9"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4470,7 +4470,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStartbit6.PROC"
+		chan="pr:emhcStartbit6"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4518,7 +4518,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStopbit7.PROC"
+		chan="pr:emhcStopbit7"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4566,7 +4566,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStartbit4.PROC"
+		chan="pr:emhcStartbit4"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4614,7 +4614,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStopbit5.PROC"
+		chan="pr:emhcStopbit5"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4662,7 +4662,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStartbit2.PROC"
+		chan="pr:emhcStartbit2"
 		clr="8"
 		bclr="9"
 		label="none"
@@ -4710,7 +4710,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:emhcStopbit3.PROC"
+		chan="pr:emhcStopbit3"
 		clr="8"
 		bclr="9"
 		label="none"
