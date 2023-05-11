@@ -293,18 +293,18 @@ display {
 			clr="14"
 		}
 		info[4] {
-			chan=""
-			value=""
+			chan="$(C).VAL"
+			value="ON"
 			connector="use"
 			comparator="equals"
-			clr="1"
+			clr="4"
 		}
 		info[5] {
-			chan=""
-			value=""
+			chan="$(C).VAL"
+			value="OFF"
 			connector="use"
 			comparator="equals"
-			clr="1"
+			clr="2"
 		}
 		info[6] {
 			chan=""
