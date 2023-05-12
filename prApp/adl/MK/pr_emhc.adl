@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="99"
-	nstr="69"
+	nstr="87"
 	ndynamic="98"
 	nplot="0"
 	nrd="1"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="1460"
-		height="775"
+		height="796"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="9426"
+	nwords_dspy="9692"
 	nwords_sta="540"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2516"
-	osta="1976"
-	odynamic="2516"
-	oplot="9254"
-	ord="9254"
-	oes="9414"
-	okd="9414"
-	opd="9426"
-	opo="9426"
+	odyng="2782"
+	osta="2242"
+	odynamic="2782"
+	oplot="9520"
+	ord="9520"
+	oes="9680"
+	okd="9680"
+	opd="9692"
+	opo="9692"
 	opc="68"
 	ostr="1418"
-	ocmap="1976"
-	ocrules="1976"
+	ocmap="2242"
+	ocrules="2242"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -676,7 +676,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit7"
+		chan="pr:EnableEnablebit6
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -724,7 +724,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit10"
+		chan="pr:EnableEnablebit9"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -772,7 +772,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit2"
+		chan="pr:EnableEnablebit1"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1004,7 +1004,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit7"
+		chan="pr:DisableDisablebit6" 
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1052,7 +1052,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit10"
+		chan="pr:DisableDisablebit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1100,7 +1100,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit2"
+		chan="pr:DisableDisablebit1"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1148,7 +1148,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit1"
+		chan="pr:EnableEnablebit0"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1196,7 +1196,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit1"
+		chan="pr:DisableDisablebit0"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1244,7 +1244,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit9"
+		chan="pr:EnableEnablebit8"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1292,7 +1292,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit9"
+		chan="pr:DisableDisablebit8"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1340,7 +1340,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit4"
+		chan="pr:EnableEnablebit3"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1388,7 +1388,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit4"
+		chan="pr:DisableDisablebit3"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1482,7 +1482,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit11"
+		chan="pr:EnableEnablebit10"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1530,7 +1530,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit11"
+		chan="pr:DisableDisablebit10"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2038,7 +2038,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit15"
+		chan="pr:EnableEnablebit14"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2086,7 +2086,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit6"
+		chan="pr:EnableEnablebit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2134,7 +2134,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit8"
+		chan="pr:EnableEnablebit7"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2182,7 +2182,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit14"
+		chan="pr:EnableEnablebit13"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2230,7 +2230,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit12"
+		chan="pr:EnableEnablebit11"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2278,7 +2278,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit3"
+		chan="pr:EnableEnablebit2"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2326,7 +2326,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit5"
+		chan="pr:EnableEnablebit4"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2374,7 +2374,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:EnableEnablebit13"
+		chan="pr:EnableEnablebit12"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2422,7 +2422,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit15"
+		chan="pr:DisableDisablebit14"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2470,7 +2470,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit14"
+		chan="pr:DisableDisablebit13"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2518,7 +2518,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit8"
+		chan="pr:DisableDisablebit7"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2566,7 +2566,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit6"
+		chan="pr:DisableDisablebit5"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2614,7 +2614,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit12"
+		chan="pr:DisableDisablebit11"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2662,7 +2662,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit3"
+		chan="pr:DisableDisablebit2"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2710,7 +2710,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit5"
+		chan="pr:DisableDisablebit4"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -2758,7 +2758,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="pr:DisableDisablebit13"
+		chan="pr:DisableDisablebit12"
 		clr="8"
 		bclr="9"
 		label="outline"
