@@ -261,7 +261,126 @@ display {
 	}
 }
 "<<color rules>>" {
-	nrules="12"
+	nrules="13"
+        dl_color_rule { 
+                name="alarm3"
+                info[0] {
+                        chan="$(C).VAL"
+                        value="ON"
+                        connector="use"
+                        comparator="equals"
+                        clr="2"
+                }
+                info[1] {
+                        chan="$(C).VAL"
+                        value="OFF"
+                        connector="use"
+                        comparator="equals"
+                        clr="4"
+                }
+                info[2] {
+                        chan="$(C).VAL"
+                        value="DISABLED"
+                        connector="use"
+                        comparator="equals"
+                        clr="2"
+                }
+                info[3] {
+                        chan="$(C).VAL"
+                        value="ENABLED"
+                        connector="use"
+                        comparator="equals"
+                        clr="4"
+                }
+                info[4] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[5] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[6] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+
+                info[7] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[8] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                }
+                info[9] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[10] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[11] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[12] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[13] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[14] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                info[15] {
+                        chan=""
+                        value=""
+                        connector="use"
+                        comparator="equals"
+                        clr="1"
+                }
+                fg_enable="on"
+                bg_enable="off"
+                default_fg="17"
+                default_bg="18"
+        }
 	dl_color_rule {
 		name="alarm2"
                 info[0] {
