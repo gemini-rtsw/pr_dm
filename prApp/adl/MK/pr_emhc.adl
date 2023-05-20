@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="4"
 	npc="69"
-	nstr="92"
+	nstr="87"
 	ndynamic="66"
 	nplot="0"
 	nrd="1"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1083"
-		height="765"
+		width="1085"
+		height="800"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="7404"
+	nwords_dspy="7298"
 	nwords_sta="540"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2456"
-	osta="1916"
-	odynamic="2696"
-	oplot="7232"
-	ord="7232"
-	oes="7392"
-	okd="7392"
-	opd="7404"
-	opo="7404"
+	odyng="2350"
+	osta="1810"
+	odynamic="2590"
+	oplot="7126"
+	ord="7126"
+	oes="7286"
+	okd="7286"
+	opd="7298"
+	opo="7298"
 	opc="68"
 	ostr="996"
-	ocmap="1916"
-	ocrules="1916"
+	ocmap="1810"
+	ocrules="1810"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -678,7 +678,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -728,7 +728,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -778,7 +778,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -801,7 +801,7 @@ display {
 			rulechan[13] = ""
 			rulechan[14] = ""
 			rulechan[15] = ""
-			clrrule="alarm"
+			clrrule=""
 			clrargs=""
 		}
 	}
@@ -828,8 +828,8 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
-			vis="static"
+			clrmod="static"
+			vis="if greater zero"
 		}
 		param {
 			rulecolorfg="0"

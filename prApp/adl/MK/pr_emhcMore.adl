@@ -18,8 +18,8 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1434"
-		height="851"
+		width="1432"
+		height="874"
 	}
 	clr="0"
 	bclr="13"
@@ -2320,7 +2320,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2370,7 +2370,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2420,7 +2420,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2470,7 +2470,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2520,7 +2520,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2570,7 +2570,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2620,7 +2620,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2670,7 +2670,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2720,7 +2720,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2770,7 +2770,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2820,7 +2820,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2870,7 +2870,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2920,7 +2920,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2970,7 +2970,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -3120,7 +3120,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -3170,7 +3170,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -3220,7 +3220,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -3270,7 +3270,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
