@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="0"
-	npc="99"
-	nstr="87"
-	ndynamic="68"
+	ndyng="4"
+	npc="69"
+	nstr="92"
+	ndynamic="66"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1078"
+		width="1083"
 		height="765"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="7618"
+	nwords_dspy="7404"
 	nwords_sta="540"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2778"
-	osta="2238"
-	odynamic="2778"
-	oplot="7446"
-	ord="7446"
-	oes="7606"
-	okd="7606"
-	opd="7618"
-	opo="7618"
+	odyng="2456"
+	osta="1916"
+	odynamic="2696"
+	oplot="7232"
+	ord="7232"
+	oes="7392"
+	okd="7392"
+	opd="7404"
+	opo="7404"
 	opc="68"
-	ostr="1416"
-	ocmap="2238"
-	ocrules="2238"
+	ostr="996"
+	ocmap="1916"
+	ocrules="1916"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -51,8 +51,8 @@ display {
 	cmap="colorsMK.dl"
 	pixwid="5120"
 	pixht="2538"
-	mmwid="1345"
-	mmht="651"
+	mmwid="1337"
+	mmht="644"
 }
 "<<basic attribute>>" {
 	attr {
@@ -665,6 +665,206 @@ display {
 		groupid="0"
 	}
 	textix="Power Monitor bypass switch"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="if greater zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:emhc:pwrMonitorStatus"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="439"
+		y="139"
+		width="191"
+		height="20"
+		groupid="0"
+	}
+	textix="3ph power OK"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:emhc:pwrMonitorStatus"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="438"
+		y="138"
+		width="167"
+		height="20"
+		groupid="0"
+	}
+	textix="3ph power fault"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:emhc:pwrMonitorBypass"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="441"
+		y="159"
+		width="174"
+		height="20"
+		groupid="0"
+	}
+	textix="Bypass OFF"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="static"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="pr:emhc:pwrMonitorBypass"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="438"
+		y="162"
+		width="190"
+		height="20"
+		groupid="0"
+	}
+	textix="Bypass position"
 	align="horiz. left"
 }
 "message button" {
@@ -3380,98 +3580,6 @@ display {
 		decorate="none"
 		convertFunc=""
 		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="461"
-		y="138"
-		width="186"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="pr:emhc:pwrMonitorStatus"
-		clr="12"
-		bclr="13"
-		label="none"
-		clrmod="rule"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm2"
-		clrargs="C=pr:emhc:pwrMonitorStatus"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc="(C === 'ON') ? '3ph power OK' : '3ph power fault'"
-		convertParams="C=pr:emhc:pwrMonitorStatus"
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="461"
-		y="161"
-		width="186"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="pr:emhc:pwrMonitorBypass"
-		clr="12"
-		bclr="13"
-		label="none"
-		clrmod="rule"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm3"
-		clrargs="C=pr:emhc:pwrMonitorBypass"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc="(convertParams === 'ON') ? 'Bypass position' : 'Bypass OFF'"
-		convertParams="C=pr:emhc:pwrMonitorBypass"
 	}
 	align="horiz. left"
 	format="decimal"
