@@ -18,8 +18,8 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1432"
-		height="874"
+		width="1448"
+		height="864"
 	}
 	clr="0"
 	bclr="13"
@@ -720,7 +720,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -770,7 +770,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -820,7 +820,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -870,7 +870,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -920,7 +920,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -970,7 +970,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1020,7 +1020,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1070,7 +1070,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1120,7 +1120,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1170,7 +1170,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1220,7 +1220,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1270,7 +1270,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1320,7 +1320,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1370,7 +1370,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1420,7 +1420,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1470,7 +1470,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1520,7 +1520,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1570,7 +1570,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1620,7 +1620,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1670,7 +1670,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1720,7 +1720,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1770,7 +1770,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1820,7 +1820,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1870,7 +1870,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -1920,7 +1920,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -1970,7 +1970,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2020,7 +2020,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2070,7 +2070,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2120,7 +2120,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2170,7 +2170,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -2220,7 +2220,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -2270,7 +2270,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -3020,7 +3020,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -3070,7 +3070,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -3100,8 +3100,8 @@ display {
 }
 "text" {
 	object {
-		x="1251"
-		y="163"
+		x="1247"
+		y="162"
 		width="217"
 		height="20"
 		groupid="0"
@@ -3152,7 +3152,7 @@ display {
 	object {
 		x="1121"
 		y="164"
-		width="203"
+		width="93"
 		height="20"
 		groupid="0"
 	}
@@ -3202,7 +3202,7 @@ display {
 	object {
 		x="1121"
 		y="164"
-		width="217"
+		width="95"
 		height="20"
 		groupid="0"
 	}
@@ -3320,7 +3320,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if greater zero"
 		}
 		param {
@@ -3370,7 +3370,7 @@ display {
 "<<dynamic attribute>>" {
 	attr {
 		mod {
-			clrmod="rule"
+			clrmod="static"
 			vis="if zero"
 		}
 		param {
@@ -3400,8 +3400,8 @@ display {
 }
 "text" {
 	object {
-		x="1250"
-		y="190"
+		x="1246"
+		y="189"
 		width="217"
 		height="20"
 		groupid="0"
