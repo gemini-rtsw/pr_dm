@@ -2921,7 +2921,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if greater zero"
+			vis="if zero"
 		}
 		param {
 			rulecolorfg="0"
@@ -2956,7 +2956,7 @@ display {
 		height="20"
 		groupid="0"
 	}
-	textix="Closed"
+	textix="Not Tripped"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -2971,7 +2971,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if zero"
+			vis="if greater zero"
 		}
 		param {
 			rulecolorfg="0"
@@ -3021,7 +3021,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if greater zero"
+			vis="if zero"
 		}
 		param {
 			rulecolorfg="0"
@@ -3056,7 +3056,7 @@ display {
 		height="20"
 		groupid="0"
 	}
-	textix="Closed"
+	textix="Not Tripped"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -3071,7 +3071,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if zero"
+			vis="if greater zero"
 		}
 		param {
 			rulecolorfg="0"
@@ -3321,7 +3321,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if greater zero"
+			vis="if zero"
 		}
 		param {
 			rulecolorfg="0"
@@ -3356,7 +3356,7 @@ display {
 		height="20"
 		groupid="0"
 	}
-	textix="Closed"
+	textix="Not Tripped"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -3371,7 +3371,7 @@ display {
 	attr {
 		mod {
 			clrmod="static"
-			vis="if zero"
+			vis="if greater zero"
 		}
 		param {
 			rulecolorfg="0"
