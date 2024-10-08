@@ -1,8 +1,8 @@
 %define _prefix __auto__
 %define gemopt opt
 %define name pr
-%define version __auto__
-%define release __auto__
+%define version 2
+%define release 23
 %define repository gemini
 %define debug_package %{nil}
 
