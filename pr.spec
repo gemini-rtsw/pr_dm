@@ -1,10 +1,11 @@
-%define _prefix __auto__
+%define _prefix /gemsoft
 %define gemopt opt
 %define name pr
 %define version 2
 %define release 23
 %define repository gemini
 %define debug_package %{nil}
+%define _build_id_links none
 
 Summary: %{name} Package
 Name: %{name}
