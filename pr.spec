@@ -1,19 +1,27 @@
 %define debug_package %{nil}
 %define _build_id_links none
 
+%define name pr
+%define gemopt opt
+%define version 2.23
+%define release 1
+%define repository gemini
+%define _prefix /gemsoft
+
 Summary: %{name} Package
 Name: %{name}
-Version: %{auto_version}
-Release: %{auto_release}.%{dist}.%{repository}
+Version: %{version}
+Release: %{release}.%{repository}
 License: GPL
-## Source:%{name}-%{auto_version}.tar.gz
+## Source:%%{name}-%%{version}.tar.gz
 Group: Gemini
-BuildRoot: /var/tmp/%{name}-%{auto_version}-root
-Source0: %{name}-%{auto_version}.tar.gz
-BuildArch: %{arch}
+BuildRoot: /var/tmp/%{name}-%{version}-root
+Source0: %{name}-%{version}.tar.gz
+BuildArch: x86_64
+
 Prefix: %{_prefix}
 ## You may specify dependencies here
-# BuildRequires:
+BuildRequires: epics-base-devel%{?_isa} = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
 Requires: epics_extension-opiGEM epics_extension-alh
 ## Switch dependency checking off
 # AutoReqProv: no
@@ -24,26 +32,27 @@ Package %{name} provides the DM screens for the module pr.
 %package ws
 Summary: %{name}-ws Package
 Group: Gemini
-BuildRequires: epics_extension-opiGEM
+BuildRequires: epics-base-devel%{?_isa} = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
 Requires: epics_extension-opiGEM epics_extension-alh
 %description ws
 Package %{name}-ws provides the DM screens for the module pr.
 
 ## If you want to have a devel-package to be generated uncomment the following:
-# %package devel
-# Summary: %{name}-devel Package
-# Group: Development/Gemini
-# Requires: %{name}
-# %description devel
-# This is a default description for the %{name}-devel package
+%package devel
+Summary: %{name}-devel Package
+Group: Development/Gemini
+Requires: %{name}
+%description devel
+This is a default description for the %{name}-devel package
 
 ## Of course, you also can create additional packages, e.g for "doc". Just
 ## follow the same way as I did with "%package devel".
 
 %prep
-%setup -n %{name}
+%setup -n %{name}-%{version}
 
 %build
+export PATH=/gemsoft/opt/epics/extensions/bin/linux-x86_64:$PATH
 make
 
 %install
@@ -56,7 +65,7 @@ mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/alh/pr
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/bin/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
-cp -r bin/linux-x86/* $RPM_BUILD_ROOT/%{_prefix}/bin/
+cp -r bin/linux-x86_64/* $RPM_BUILD_ROOT/%{_prefix}/bin/
 cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
 cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
 #cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr
@@ -106,13 +115,13 @@ rm -rf $RPM_BUILD_ROOT
 /%{_prefix}/bin/*
 /%{_prefix}/share/dl/*
 /%{_prefix}/share/alh/*
-#/%{_prefix}/var/*
+#/%%{_prefix}/var/*
 
 ## If you want to have a devel-package to be generated uncomment the following
-# %files devel
-# %defattr(-,root,root)
+%files devel
+%defattr(-,root,root)
 ## list files that are installed by the devel package here, e.g
-## %{_prefix}/zzz/zzz
+## %%{_prefix}/zzz/zzz
 
 
 %changelog
