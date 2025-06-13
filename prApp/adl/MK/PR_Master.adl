@@ -1801,39 +1801,40 @@ display {
 		args="top=$(top), desc=CirculationPump, dev=cp4"
 	}
 	display[5] {
+        label="CP4B"
+        name="pr_vfd.dl"
+        args="top=$(top), desc=CirculationPump, dev=cp4b"
+    }
+    display[6] {
+        label="CP4-CP4B Auto Selection"
+        name="pr_cp4auto.dl"
+        args="top=$(top), desc=CirculationPump, dev=cp4auto"
+    }
+
+	display[7] {
 		label="CP5"
 		name="pr_vfd.dl"
 		args="top=$(top), desc=CirculationPump, dev=cp5"
 	}
-	display[6] {
+	display[8] {
 		label="CP6A"
 		name="pr_vfd.dl"
 		args="top=$(top), desc=CirculationPump, dev=cp6A"
 	}
-	display[7] {
+	display[9] {
 		label="CP6B"
 		name="pr_vfd.dl"
 		args="top=$(top), desc=CircultionPump, dev=cp6B"
 	}
-	display[8] {
+	display[10] {
 		label="CP7"
 		name="pr_vfd.dl"
 		args="top=$(top), desc=CirculationPump, dev=cp7"
 	}
-	display[9] {
+	display[11] {
 		label="CP8"
 		name="pr_vfd.dl"
 		args="top=$(top), desc=CirculationPump, dev=cp8"
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
 	}
 	display[12] {
 		label=""
