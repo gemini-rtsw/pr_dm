@@ -3,7 +3,7 @@
 
 %define name pr
 %define gemopt opt
-%define version 2.23
+%define version 2.24
 %define release 1
 %define repository gemini
 %define _prefix /gemsoft
