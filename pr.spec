@@ -11,7 +11,7 @@
 Summary: %{name} Package
 Name: %{name}
 Version: %{version}
-Release: %{release}.%{repository}
+Release: %{release}.%{repository}%{?dist}
 License: GPL
 ## Source:%%{name}-%%{version}.tar.gz
 Group: Gemini
