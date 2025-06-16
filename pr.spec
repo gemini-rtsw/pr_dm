@@ -4,7 +4,7 @@
 %define name pr
 %define gemopt opt
 %define version 2.24
-%define release 1
+%define release 3
 %define repository gemini
 %define _prefix /gemsoft
 %define epics_arch linux-x86_64
@@ -68,6 +68,12 @@ mkdir -p $RPM_BUILD_ROOT/etc/profile.d/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
 cp -r bin/linux-x86_64/* $RPM_BUILD_ROOT/%{_prefix}/bin/
+
+# Copy 64-bit dm2-4 as fallback if it exists
+if [ -f "/gemsoft/opt/epics/extensions/bin/linux-x86_64/dm2-4" ]; then
+    cp /gemsoft/opt/epics/extensions/bin/linux-x86_64/dm2-4 $RPM_BUILD_ROOT/%{_prefix}/bin/dm2-4_64
+    chmod 755 $RPM_BUILD_ROOT/%{_prefix}/bin/dm2-4_64
+fi
 cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
 cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
 #cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr
