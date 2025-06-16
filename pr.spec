@@ -7,6 +7,7 @@
 %define release 1
 %define repository gemini
 %define _prefix /gemsoft
+%define epics_arch linux-x86_64
 
 Summary: %{name} Package
 Name: %{name}
@@ -52,7 +53,7 @@ This is a default description for the %{name}-devel package
 %setup -n %{name}-%{version}
 
 %build
-export PATH=/gemsoft/opt/epics/extensions/bin/linux-x86_64:$PATH
+export PATH=%{_prefix}/%{gemopt}/epics/extensions/bin/%{epics_arch}:$PATH
 make
 
 %install
@@ -63,6 +64,7 @@ mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/alh/pr
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/bin/
+mkdir -p $RPM_BUILD_ROOT/etc/profile.d/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
 cp -r bin/linux-x86_64/* $RPM_BUILD_ROOT/%{_prefix}/bin/
@@ -70,6 +72,15 @@ cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_CP
 cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr/data_MK
 #cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/pr
 #cp -r data/*.config $RPM_BUILD_ROOT/%{_prefix}/share/alh/pr
+
+# Create profile.d script to set PATH for all users
+cat > $RPM_BUILD_ROOT/etc/profile.d/pr-epics.sh << 'EOF'
+#!/bin/bash
+# Add EPICS extensions bin to PATH for pr package
+export PATH="%{_prefix}/%{gemopt}/epics/extensions/bin/%{epics_arch}:$PATH"
+EOF
+
+chmod 755 $RPM_BUILD_ROOT/etc/profile.d/pr-epics.sh
 
 #touch $RPM_BUILD_ROOT/%{_prefix}/var/log/alarms.log
 #touch $RPM_BUILD_ROOT/%{_prefix}/var/log/opmod.log
@@ -115,6 +126,7 @@ rm -rf $RPM_BUILD_ROOT
 /%{_prefix}/bin/*
 /%{_prefix}/share/dl/*
 /%{_prefix}/share/alh/*
+/etc/profile.d/pr-epics.sh
 #/%%{_prefix}/var/*
 
 ## If you want to have a devel-package to be generated uncomment the following
@@ -122,6 +134,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 ## list files that are installed by the devel package here, e.g
 ## %%{_prefix}/zzz/zzz
+/etc/profile.d/pr-epics.sh
 
 
 %changelog
