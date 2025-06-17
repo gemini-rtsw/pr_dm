@@ -4,7 +4,7 @@
 %define name pr
 %define gemopt opt
 %define version 2.24
-%define release 3
+%define release 5
 %define repository gemini
 %define _prefix /gemsoft
 %define epics_arch linux-x86_64
