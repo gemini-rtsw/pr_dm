@@ -7,12 +7,13 @@
 %define release 5
 %define repository gemini
 %define _prefix /gemsoft
-%define epics_arch linux-x86_64
+%define epics_arch linux-x86
+%define git_hash %(git rev-parse --short HEAD 2>/dev/null || echo nogit)
 
 Summary: %{name} Package
 Name: %{name}
 Version: %{version}
-Release: %{release}.%{repository}%{?dist}
+Release: %{release}.%{git_hash}.%{repository}%{?dist}
 License: GPL
 ## Source:%%{name}-%%{version}.tar.gz
 Group: Gemini
@@ -22,7 +23,7 @@ BuildArch: x86_64
 
 Prefix: %{_prefix}
 ## You may specify dependencies here
-BuildRequires: epics-base-devel%{?_isa} = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
+BuildRequires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
 Requires: epics_extension-opiGEM epics_extension-alh
 ## Switch dependency checking off
 # AutoReqProv: no
@@ -33,7 +34,7 @@ Package %{name} provides the DM screens for the module pr.
 %package ws
 Summary: %{name}-ws Package
 Group: Gemini
-BuildRequires: epics-base-devel%{?_isa} = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
+BuildRequires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
 Requires: epics_extension-opiGEM epics_extension-alh
 %description ws
 Package %{name}-ws provides the DM screens for the module pr.
@@ -42,7 +43,7 @@ Package %{name}-ws provides the DM screens for the module pr.
 %package devel
 Summary: %{name}-devel Package
 Group: Development/Gemini
-Requires: epics-base-devel%{?_isa} = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
+Requires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
 %description devel
 This is a default description for the %{name}-devel package
 
