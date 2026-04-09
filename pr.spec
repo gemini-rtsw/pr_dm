@@ -43,7 +43,7 @@ Package %{name}-ws provides the DM screens for the module pr.
 %package devel
 Summary: %{name}-devel Package
 Group: Development/Gemini
-Requires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
+Requires: epics-base-devel = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
 %description devel
 This is a default description for the %{name}-devel package
 
