@@ -236,15 +236,26 @@ display {
 	align="horiz. left"
 }
 "text" {
-	object {
-		x="330"
-		y="307"
-		width="220"
-		height="19"
-		groupid="0"
-	}
-	textix="UPS1 Time on Battery"
-	align="horiz. left"
+        object {
+                x="350"
+                y="295"
+                width="280"
+                height="16"
+                groupid="0"
+        }
+        textix="ATS1 time left before"
+        align="horiz. left"
+}
+"text" {
+        object {
+                x="355"
+                y="312"
+                width="280"
+                height="16"
+                groupid="0"
+        }
+        textix="switching to Normal"
+        align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
