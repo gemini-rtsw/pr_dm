@@ -237,7 +237,7 @@ display {
 }
 "text" {
         object {
-                x="350"
+                x="330"
                 y="278"
                 width="280"
                 height="16"
@@ -248,7 +248,7 @@ display {
 }
 "text" {
         object {
-                x="350"
+                x="330"
                 y="295"
                 width="280"
                 height="16"
@@ -259,7 +259,7 @@ display {
 }
 "text" {
         object {
-                x="355"
+                x="335"
                 y="312"
                 width="280"
                 height="16"
