@@ -4,7 +4,7 @@
 %define name pr
 %define gemopt opt
 %define version 2.24
-%define release 6
+%define release 7
 %define repository gemini
 %define _prefix /gemsoft
 %define epics_arch linux-x86
@@ -24,7 +24,7 @@ BuildArch: x86_64
 Prefix: %{_prefix}
 ## You may specify dependencies here
 BuildRequires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
-Requires: epics_extension-opiGEM epics_extension-alh
+Requires: epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32)
 ## Switch dependency checking off
 # AutoReqProv: no
 
@@ -35,7 +35,7 @@ Package %{name} provides the DM screens for the module pr.
 Summary: %{name}-ws Package
 Group: Gemini
 BuildRequires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32) perl
-Requires: epics_extension-opiGEM epics_extension-alh
+Requires: epics_extension-opiGEM(x86-32) epics_extension-alh(x86-32)
 %description ws
 Package %{name}-ws provides the DM screens for the module pr.
 
@@ -43,7 +43,7 @@ Package %{name}-ws provides the DM screens for the module pr.
 %package devel
 Summary: %{name}-devel Package
 Group: Development/Gemini
-Requires: epics-base-devel = 3.14.12 epics_extension-opiGEM-devel epics_extension-alh-devel perl
+Requires: epics-base-devel(x86-32) = 3.14.12 epics_extension-opiGEM-devel(x86-32) epics_extension-alh-devel(x86-32) perl
 %description devel
 This is a default description for the %{name}-devel package
 
