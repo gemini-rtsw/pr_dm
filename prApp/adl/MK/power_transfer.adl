@@ -237,24 +237,35 @@ display {
 }
 "text" {
         object {
-                x="350"
+                x="330"
+                y="278"
+                width="280"
+                height="16"
+                groupid="0"
+        }
+        textix="ATS-1 accumulated wait time"
+        align="horiz. left"
+}
+"text" {
+        object {
+                x="330"
                 y="295"
                 width="280"
                 height="16"
                 groupid="0"
         }
-        textix="ATS1 time left before"
+        textix="before switching to Normal"
         align="horiz. left"
 }
 "text" {
         object {
-                x="355"
+                x="335"
                 y="312"
                 width="280"
                 height="16"
                 groupid="0"
         }
-        textix="switching to Normal"
+        textix="(expected 18m33s)"
         align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -631,106 +642,6 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ups1onbattery"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="325"
-		y="264"
-		width="271"
-		height="20"
-		groupid="6"
-	}
-	textix="UPS1 ON Battery Power"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)$(dev)ups1onbattery"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="325"
-		y="264"
-		width="271"
-		height="20"
-		groupid="6"
-	}
-	textix="UPS1 ON ATS1 Power"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="27"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
 			chan="$(top)$(dev)ats3gen"
 			rulechan[0] = ""
 			rulechan[1] = ""
@@ -862,106 +773,6 @@ display {
 		groupid="0"
 	}
 	textix="UPS1 Battery Low"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="27"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)$(dev)ups1contactor"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="325"
-		y="236"
-		width="194"
-		height="20"
-		groupid="5"
-	}
-	textix="UPS1 10CON Open"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)$(dev)ups1contactor"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="325"
-		y="236"
-		width="214"
-		height="20"
-		groupid="5"
-	}
-	textix="UPS1 10CON Closed"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
