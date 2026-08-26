@@ -85,6 +85,11 @@ cat > $RPM_BUILD_ROOT/etc/profile.d/pr-epics.sh << 'EOF'
 #!/bin/bash
 # Add EPICS extensions bin to PATH for pr package
 export PATH="%{_prefix}/%{gemopt}/epics/extensions/bin/%{epics_arch}:$PATH"
+# pr_dm.sh dispatches with "exec pr${GEMINI_SITE}_dm.sh", i.e. by name, so the
+# directory this package installs those scripts into has to be on PATH. A
+# workstation already has it; a bare container does not. Appended, so it cannot
+# shadow anything a site profile put ahead of it.
+export PATH="$PATH:%{_prefix}/bin"
 EOF
 
 chmod 755 $RPM_BUILD_ROOT/etc/profile.d/pr-epics.sh
